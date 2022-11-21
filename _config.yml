@@ -2,7 +2,7 @@
 title: Dark Poole
 url: https://PingBackHome.github.io
 paginate: 1
-baseurl: ""
+baseurl: "/home"
 permalink: pretty
 
 # Gems
