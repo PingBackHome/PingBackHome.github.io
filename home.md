@@ -5,6 +5,6 @@ title: Home
 
 ## Welcome 
 
-This is my personal website for code projects and ctf writeups.
-Follow me on Twitter for updates.
+This is my personal website for code projects and ctf writeups.<br>
+Follow me on Twitter for updates.<br>
 https://twitter.com/CGljaw
