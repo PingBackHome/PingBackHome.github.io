@@ -1,8 +1,8 @@
 # Setup
-title: © PingBackHome
+title: PingBackHome
 url: https://PingBackHome.github.io
 paginate: 1
-baseurl: "/home"
+baseurl: "/"
 permalink: pretty
 
 # Gems
