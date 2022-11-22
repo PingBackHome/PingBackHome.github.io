@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TryHackMe | Agent T
+title: TryHackMe | Agent Sudo
 ---
 
 # TryHackMe | Agent Sudo
