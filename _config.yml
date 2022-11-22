@@ -1,7 +1,7 @@
 # Setup
 title: PingBackHome
 url: https://PingBackHome.github.io/home
-paginate: 0
+# paginate: 1
 baseurl: "/home"
 permalink: pretty
 
