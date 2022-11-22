@@ -2,7 +2,8 @@
 layout: page
 title: Home
 ---
-<link rel="stylesheet" href="{{ "/assets/css/main.css, " | prepend: site.baseurl }}">
+
+[![Visitors](https://api.visitorbadge.io/api/daily?path=https%3A%2F%2Fpingbackhome.github.io%2Fhome%2F&label=Visitors&countColor=%23263759&style=flat)](https://visitorbadge.io/status?path=https%3A%2F%2Fpingbackhome.github.io%2Fhome%2F)
 
 ## Welcome 
 
