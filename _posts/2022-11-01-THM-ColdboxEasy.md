@@ -1,8 +1,7 @@
 ---
 layout: post
-title: TryHackMe | Coldbox: Easy
+title: TryHackMe | ColdBox Easy
 ---
-
 
 # TryHackMe | Coldbox: Easy
 
