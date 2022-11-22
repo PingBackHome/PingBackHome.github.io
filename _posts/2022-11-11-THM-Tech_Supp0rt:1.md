@@ -1,7 +1,8 @@
 ---
 layout: post
-title: TryHackMe | Tech_Supp0rt: 1
+title: TryHackMe | Tech_Support:1
 ---
+
 
 # TryHackMe | Tech_Supp0rt: 1
 
