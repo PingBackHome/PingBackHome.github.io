@@ -3,4 +3,5 @@ layout: page
 title: About
 ---
 
-IT student 
+IT and security student\
+Likes to play CTF's online :)
