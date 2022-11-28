@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Writeups
+title: Archive
 ---
 
 # Writeup for TryHackMe and HackTheBox
