@@ -1,6 +1,7 @@
 ---
 layout: post
 title: TryHackMe | Pickle Rick
+categories: TryHackMe
 ---
 
 # TryHackMe | Pickle Rick
