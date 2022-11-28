@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: post
 title: TryHackMe | Pickle Rick
 ---
 
