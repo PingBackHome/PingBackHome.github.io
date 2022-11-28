@@ -1,6 +1,7 @@
 ---
 layout: post
 title: TryHackMe | Ignite
+categories: TryHackMe
 ---
 
 # TryHackMe | Ignite
