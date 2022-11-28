@@ -1,6 +1,7 @@
 ---
 layout: post
 title: TryHackMe | Easy Peasy
+categories: TryHackMe
 ---
 
 # TryHackMe | Easy Peasy
