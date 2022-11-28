@@ -1,6 +1,7 @@
 ---
 layout: post
 title: TryHackMe | Brooklyn 99
+categories: TryHackMe
 ---
 
 # TryHackMe | Brooklyn 99
