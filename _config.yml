@@ -43,14 +43,12 @@ version: 3.0.0
 nav:
   - title: Home
     url: /home
-
-  - title: TryHackMe
-    url: /TryHackMe
-
-  - title: About
-    url: /about
     
   - title: Categories
     url: /categories
+   
+  - title: Archive
+    url: /archive
     
-
+  - title: About
+    url: /about
