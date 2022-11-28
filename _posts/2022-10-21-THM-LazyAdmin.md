@@ -1,6 +1,7 @@
 ---
 layout: post
 title: TryHackMe | LazyAdmin
+categories: TryHackMe
 ---
 
 
