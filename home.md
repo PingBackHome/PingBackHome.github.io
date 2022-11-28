@@ -11,3 +11,14 @@ This is my personal website for code projects and ctf writeups.<br>
 Follow me on Twitter for updates.<br>
 [Twitter](https://twitter.com/CGljaw)
 
+<div id="contributions" class="contributions">
+  <h3>Some recent open source contributions I've made:</h3>
+  <ul>
+  {% for contribution in site.data.github-contributions limit:10 %}
+    <li>
+      <a href="{{ contribution.html_url }}">{{ contribution.title }}</a>
+    </li>
+  {% endfor %}
+  </ul> 
+</div>
+
