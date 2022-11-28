@@ -1,6 +1,7 @@
 ---
 layout: post
 title: TryHackMe | Agent Sudo
+categories: TryHackMe
 ---
 
 # TryHackMe | Agent Sudo
