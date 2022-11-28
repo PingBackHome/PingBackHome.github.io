@@ -1,6 +1,7 @@
 ---
 layout: post
 title: TryHackMe | Mustacchio
+categories: TryHackMe
 ---
 
 # TryHackMe | Mustacchio
