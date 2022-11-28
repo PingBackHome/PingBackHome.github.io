@@ -22,3 +22,4 @@ Follow me on Twitter for updates.<br>
   </ul> 
 </div>
 
+<img src="https://ghchart.rshah.org/PingBackHome" alt="PingBackHome Github chart" />
