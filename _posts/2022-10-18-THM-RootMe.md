@@ -1,6 +1,7 @@
 ---
 layout: post
 title: TryHackMe | RootMe
+categories: TryHackMe
 ---
 
 # TryHackMe | RootMe
