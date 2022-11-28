@@ -1,6 +1,7 @@
 ---
 layout: post
 title: TryHackMe | Simple CTF
+categories: TryHackMe
 ---
 
 # TryHackMe | Simple CTF
