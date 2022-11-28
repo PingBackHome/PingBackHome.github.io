@@ -1,6 +1,7 @@
 ---
 layout: post
 title: TryHackMe | Agent T
+categories: TryHackMe
 ---
 
 # TryHackMe | Agent T
