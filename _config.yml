@@ -45,7 +45,7 @@ nav:
     url: /home
 
   - title: TryHackMe
-    url: /archive
+    url: /TryHackMe
 
   - title: About
     url: /about
