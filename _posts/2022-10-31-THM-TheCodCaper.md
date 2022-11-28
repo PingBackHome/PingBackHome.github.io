@@ -1,6 +1,7 @@
 ---
 layout: post
 title: TryHackMe | The Cod Caper
+categories: TryHackMe
 ---
 
 
