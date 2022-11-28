@@ -1,6 +1,7 @@
 ---
 layout: post
 title: TryHackMe | Wgel CTF
+categories: TryHackMe
 ---
 
 # TryHackMe | Wgel CTF
