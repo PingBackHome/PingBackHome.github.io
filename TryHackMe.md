@@ -1,9 +1,9 @@
 ---
 layout: default
-title: TryHackMe
+title: Writeups
 ---
 
-# Writeup for TryHackMe 
+# Writeup for TryHackMe and HackTheBox
 
 Browse all posts by month and year.
 
