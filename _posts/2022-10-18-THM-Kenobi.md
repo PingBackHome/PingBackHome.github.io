@@ -1,6 +1,7 @@
 ---
 layout: post
 title: TryHackMe | Kenobi
+categories: TryHackMe
 ---
 
 # TryHackMe | Kenobi
