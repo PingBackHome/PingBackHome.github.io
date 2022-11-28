@@ -1,6 +1,7 @@
 ---
 layout: post
 title: TryHackMe | All in one
+categories: TryHackMe
 ---
 
 # TryHackMe | All in one
