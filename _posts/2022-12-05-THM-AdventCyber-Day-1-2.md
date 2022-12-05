@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TryHackMe | Advent of Cyber 2022
+title: TryHackMe | Advent of Cyber 2022 - Day 1 & 2
 categories: TryHackMe
 ---
 
