@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TryHackMe | Pickle Rick
+title: TryHackMe | [Advent of Cyber 2022]
 categories: TryHackMe
 ---
 
