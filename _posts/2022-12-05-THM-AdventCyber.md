@@ -19,10 +19,10 @@ What's the flag that they left behind?
 
 # Day 2:
 
-**Usefull information**\
+**Usefull information**
 
-    IP address: 10.10.193.81\
-    Username: elfmcblue\
+    IP address: 10.10.193.81
+    Username: elfmcblue
     Password: tryhackme!
 
 ## Questions and Answers
