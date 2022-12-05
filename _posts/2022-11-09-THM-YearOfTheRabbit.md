@@ -1,6 +1,7 @@
 ---
 layout: post
 title: TryHackMe | Year of the Rabbit
+categories: TryHackMe
 ---
 
 # TryHackMe | Year of the Rabbit
