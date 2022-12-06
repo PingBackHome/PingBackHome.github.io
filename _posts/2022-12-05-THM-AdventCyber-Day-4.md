@@ -4,7 +4,7 @@ title: TryHackMe | Advent of Cyber 2022 - Day 4
 categories: TryHackMe
 ---
 
-Start date: 05-12
+Start date: 05-12-2022
 
 # Day 4:
 
