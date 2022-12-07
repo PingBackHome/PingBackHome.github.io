@@ -43,14 +43,27 @@ Date: 07-12-2022\
 
 <img width="704" alt="image" src="https://user-images.githubusercontent.com/115549820/206161799-327c072e-df52-49b8-b37f-c1b33dcda885.png">
 
+<img width="454" alt="image" src="https://user-images.githubusercontent.com/115549820/206166246-6f71743d-9110-44a7-9cf7-603d1ad530a0.png">
 
 
 ### Webserver Enumeration
 
+<img width="480" alt="image" src="https://user-images.githubusercontent.com/115549820/206168188-66296dc0-0068-4904-b8d3-624d02592aa3.png">
 
+**Index.html**
+
+<img width="729" alt="image" src="https://user-images.githubusercontent.com/115549820/206167345-5e85523c-3c9b-4d75-b37c-d07aeab81ade.png">
+
+**Home.php**
+
+<img width="729" alt="image" src="https://user-images.githubusercontent.com/115549820/206167168-39a2ad02-175f-43ac-95a9-5c08bb30a92b.png">
 
 
 ## Fase 2: Getting Access
+
+**Reverse Shell**
+
+<img width="169" alt="image" src="https://user-images.githubusercontent.com/115549820/206169217-b752d70d-0f61-45c1-b58d-315a23b0d85c.png">
 
   
 ## Fase 3: Intern Enumeration
