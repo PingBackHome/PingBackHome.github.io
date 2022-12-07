@@ -65,8 +65,22 @@ Date: 07-12-2022\
 
 <img width="169" alt="image" src="https://user-images.githubusercontent.com/115549820/206169217-b752d70d-0f61-45c1-b58d-315a23b0d85c.png">
 
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/115549820/206180175-4a5a7deb-a20c-4114-9dab-19116e1842e9.png">
+
+<img width="361" alt="image" src="https://user-images.githubusercontent.com/115549820/206183102-6e7832b2-524e-41bd-b8de-58d653a279d4.png">
   
 ## Fase 3: Intern Enumeration
+
+<img width="320" alt="image" src="https://user-images.githubusercontent.com/115549820/206183277-cf0cb804-2b01-4f63-8857-f82a937cadf6.png">
+
+<img width="320" alt="image" src="https://user-images.githubusercontent.com/115549820/206183528-775e05dd-d5c4-48d2-a506-825de44dccd6.png">
+
+<img width="320" alt="image" src="https://user-images.githubusercontent.com/115549820/206183674-26960c3f-720b-4f29-bc31-b85d636ca0cb.png">
+
+<img width="320" alt="image" src="https://user-images.githubusercontent.com/115549820/206183989-58e14572-bf69-47f5-bd64-9fdf20d9a15d.png">
+
+<img width="320" alt="image" src="https://user-images.githubusercontent.com/115549820/206184919-7bc095ba-a583-4d5c-8b5f-b0cb370d9694.png">
+
 
   
 ## Fase 4: PrivEsc
