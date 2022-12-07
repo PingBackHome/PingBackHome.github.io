@@ -11,15 +11,6 @@ This is my personal website for code projects and ctf writeups.<br>
 Follow me on Twitter for updates.<br>
 [Twitter](https://twitter.com/CGljaw)
 
-<div id="contributions" class="contributions">
-  <h3>Some recent open source contributions I've made:</h3>
-  <ul>
-  {% for contribution in site.data.github-contributions limit:10 %}
-    <li>
-      <a href="{{ contribution.html_url }}">{{ contribution.title }}</a>
-    </li>
-  {% endfor %}
-  </ul> 
-</div>
+<a class="twitter-timeline" href="https://twitter.com/CGljaw?ref_src=twsrc%5Etfw">Tweets by CGljaw</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 <img src="https://ghchart.rshah.org/PingBackHome" alt="PingBackHome Github chart" />
