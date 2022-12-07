@@ -81,8 +81,43 @@ Date: 07-12-2022\
 
 <img width="320" alt="image" src="https://user-images.githubusercontent.com/115549820/206184919-7bc095ba-a583-4d5c-8b5f-b0cb370d9694.png">
 
-
   
 ## Fase 4: PrivEsc
-  
+
+<img width="413" alt="image" src="https://user-images.githubusercontent.com/115549820/206186360-1940bb0d-2ed0-4a8c-a63d-7a8bf29f1a93.png">
+
+<img width="621" alt="image" src="https://user-images.githubusercontent.com/115549820/206186458-f41f013b-9a65-4677-9913-a0361e02b1f8.png">
+
+<img width="303" alt="image" src="https://user-images.githubusercontent.com/115549820/206186713-5bb72162-389d-4a99-a866-c5295f1510bb.png">
+
+<img width="303" alt="image" src="https://user-images.githubusercontent.com/115549820/206186864-07c1c83c-ed20-416f-814b-62ae087a9372.png">
+
+<img width="594" alt="image" src="https://user-images.githubusercontent.com/115549820/206186940-a5959001-a8a3-4f18-90a8-d7d070431de3.png">
+
+<img width="757" alt="image" src="https://user-images.githubusercontent.com/115549820/206187152-08f3dc66-d7de-4c11-a948-dfeb6d11bf60.png">
+
+<img width="361" alt="image" src="https://user-images.githubusercontent.com/115549820/206187300-b8f360a5-fd97-493c-9b8c-2e9961672021.png">
+
+<img width="376" alt="image" src="https://user-images.githubusercontent.com/115549820/206188071-974d9255-ea1c-4e85-87f2-141c2c21b5c0.png">
+
+<img width="790" alt="image" src="https://user-images.githubusercontent.com/115549820/206188569-c00584dc-96fe-4a01-b534-96d6e99dfad8.png">
+
+
 ## TryHackMe Questions
+
+Enter the key you found! 
+> b'-VkgXhFf6sAEcAwrC6YR-SZbiuSb8ABXeQuvhcGSQzY='
+
+What is Charlie's password?
+> cn7824
+
+Change user to charlie
+> No answer needed
+
+Enter the user flag
+> flag{cd5509042371b34e4826e4838b522d2e}
+
+Enter the root flag
+> flag{cec59161d338fef787fcb4e296b42124}
+
+
