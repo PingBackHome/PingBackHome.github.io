@@ -67,6 +67,14 @@ Date: 09-12-2022\
 
 <img width="510" alt="image" src="https://user-images.githubusercontent.com/115549820/206698859-a749c0c0-e3cb-4b79-9511-8071549011f1.png">
 
+***WP username***
+
+<img width="510" alt="image" src="https://user-images.githubusercontent.com/115549820/206699349-135809da-b127-4f6f-9726-fbe2091e0d5c.png">
+
+***WP password cracking***
+
+<img width="510" alt="image" src="https://user-images.githubusercontent.com/115549820/206699850-501da721-679e-4029-9b50-56ae8792f5d4.png">
+
 
 ## Fase 2: Getting Access
 
@@ -79,6 +87,7 @@ Date: 09-12-2022\
 ## TryHackMe Questions
 
 What is key 1?
+> 073403c8a58a1f80d943455fb30724b9
 
 What is key 2?
 
