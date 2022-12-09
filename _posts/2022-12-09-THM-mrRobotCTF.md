@@ -1,3 +1,9 @@
+---
+layout: post
+title: TryHackMe | Mr Robot CTF
+categories: TryHackMe
+---
+
 # TryHackMe | Mr Robot CTF
 
 +++++++++++++++++++++++++++++++++++\
