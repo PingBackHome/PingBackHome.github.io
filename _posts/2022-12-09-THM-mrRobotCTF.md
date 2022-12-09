@@ -75,6 +75,14 @@ Date: 09-12-2022\
 
 <img width="510" alt="image" src="https://user-images.githubusercontent.com/115549820/206699850-501da721-679e-4029-9b50-56ae8792f5d4.png">
 
+<img width="834" alt="image" src="https://user-images.githubusercontent.com/115549820/206701642-fe37558e-c848-4985-98d3-8dd2069215bf.png">
+
+<img width="245" alt="image" src="https://user-images.githubusercontent.com/115549820/206701830-1df94de8-ff55-4764-9017-1ef70d6dfc39.png">
+
+<img width="502" alt="image" src="https://user-images.githubusercontent.com/115549820/206701985-1465dde0-aa5e-4d38-8de0-17dd6a080546.png">
+
+<img width="502" alt="image" src="https://user-images.githubusercontent.com/115549820/206711673-20144e69-61d1-43b6-b599-318130556abe.png">
+
 
 ## Fase 2: Getting Access
 
