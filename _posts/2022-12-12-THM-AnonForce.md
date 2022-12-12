@@ -62,17 +62,43 @@ https://blog.atucom.net/2015/08/cracking-gpg-key-passwords-using-john.html
 
 ![image](https://user-images.githubusercontent.com/115549820/207128188-1a722700-4a65-4ac7-a601-8837eb65cff6.png)
 
+
+## Fase 2: Getting Access
+
 ![image](https://user-images.githubusercontent.com/115549820/207128255-67af9438-59bd-4cd8-b592-0496400d24b4.png)
 
 ![image](https://user-images.githubusercontent.com/115549820/207128893-f7040769-6eb7-4460-b64d-ccd2e9168d4c.png)
 
+![image](https://user-images.githubusercontent.com/115549820/207132133-d358ff88-f8fb-4cbd-a9ff-7a1866a9e907.png)
 
-## Fase 2: Getting Access
+![image](https://user-images.githubusercontent.com/115549820/207132232-d959d9a5-82e4-43c0-acf7-4356379b33b2.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207132278-7735d377-a656-40af-935f-cf3a3ec749f2.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207134840-37259ac6-da79-443e-89d0-c9178aa7e564.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207130813-2a750a0f-e78f-4700-92c1-8bd9fade968c.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207130868-a6132c4e-f4be-451f-8996-f16594048cb7.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207134888-a16aa26c-69a2-462c-96f2-f70fa63adcf1.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207134950-77b1c16e-7de2-4a65-a825-efd57302c253.png)
+
+> Credential:\
+> root::hikari
 
   
 ## Fase 3: Intern Enumeration
 
-  
-## Fase 4: PrivEsc
-  
+![image](https://user-images.githubusercontent.com/115549820/207135378-b03f1866-6bb7-47fa-aefd-c93dba0c504d.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207135502-7b52c11f-0dae-47e5-8888-eb8411a50449.png)
+    
 ## TryHackMe Questions
+
+user.txt
+> 606083fd33beb1284fc51f411a706af8
+
+root.txt
+> f706456440c7af4187810c31c6cebdce
