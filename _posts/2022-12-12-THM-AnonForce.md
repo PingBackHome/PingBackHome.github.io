@@ -44,6 +44,29 @@ Date: 12-12-2022\
 
 ![image](https://user-images.githubusercontent.com/115549820/207121886-e900766b-6794-4b0e-9472-7460f9ac4adb.png)
 
+![image](https://user-images.githubusercontent.com/115549820/207126155-16c592bf-c1a0-4ffb-9f1c-1478362035a6.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207126740-788be689-7632-470b-825f-1c74f86d365d.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207126784-f0eac2ef-b851-4c5f-9300-37ea87f1767c.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207127031-56ddc2d0-33c9-4ee8-895e-3c4b443195d9.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207127081-5cd70da5-ea8c-4989-bff6-eb3106d9c128.png)
+
+https://blog.atucom.net/2015/08/cracking-gpg-key-passwords-using-john.html
+
+![image](https://user-images.githubusercontent.com/115549820/207127227-2fe7b2de-0e11-4972-88bb-c5bb740f16d2.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207127273-95c073d2-05e1-4d39-9391-0432954d3a1c.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207128188-1a722700-4a65-4ac7-a601-8837eb65cff6.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207128255-67af9438-59bd-4cd8-b592-0496400d24b4.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207128893-f7040769-6eb7-4460-b64d-ccd2e9168d4c.png)
+
+
 ## Fase 2: Getting Access
 
   
