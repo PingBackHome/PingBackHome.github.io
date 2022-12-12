@@ -92,6 +92,9 @@ Date: 09-12-2022\
 
 ## Fase 2: Getting Access
 
+<img width="620" alt="image" src="https://user-images.githubusercontent.com/115549820/207018496-ba18a5a7-478d-49c8-bce2-992bb89196c1.png">
+
+
   
 ## Fase 3: Intern Enumeration
 
