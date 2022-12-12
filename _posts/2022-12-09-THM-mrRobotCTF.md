@@ -19,8 +19,8 @@ Date: 09-12-2022\
 
 **Open Ports**
 
-22 - SSH - CLOSED
-80 - Webserver - Apache
+22 - SSH - CLOSED\
+80 - Webserver - Apache\
 443 - Webserver SSL - Apache
 
 ### Webserver Enumeration
@@ -92,20 +92,66 @@ Date: 09-12-2022\
 
 ## Fase 2: Getting Access
 
+![image](https://user-images.githubusercontent.com/115549820/207056982-489b0d9c-ef1d-4bda-97e3-cf15b4a4f069.png)
+
 <img width="620" alt="image" src="https://user-images.githubusercontent.com/115549820/207018496-ba18a5a7-478d-49c8-bce2-992bb89196c1.png">
 
+### Reverse shell
+
+![image](https://user-images.githubusercontent.com/115549820/207058314-a7bd3ee6-4c47-4e44-b282-cd4b19e5f1c8.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207058573-d92ed38a-2652-4219-9a61-8768a10c4011.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207058718-b2b73dee-bbee-436a-9012-283ac55f5741.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207058972-2dcdb404-4f86-4b47-948d-c422097bfedb.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207059145-4cb3e795-1452-443b-93b9-aa2432476382.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207060595-338823b3-5bb8-4d11-b593-62627f505016.png)
 
   
 ## Fase 3: Intern Enumeration
 
+![image](https://user-images.githubusercontent.com/115549820/207060999-0adeddea-7e15-451c-bdf5-335f1f76d19a.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207061242-41a2ebe4-5dc6-43b2-b815-f9a1162a0357.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207061341-96de46c4-2087-43a9-91e0-465cde0d3515.png)
+
+### Cracking md5 hash
+
+![image](https://user-images.githubusercontent.com/115549820/207063374-6dd25bbe-8ea2-4fce-842c-c829ec9a84bd.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207063484-1c1c7738-8d0c-4259-ad89-35cdbb312b72.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207063658-d587904e-8966-45cf-96f5-50cd216049f8.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207063832-848da3a5-862b-4ba7-9621-c2a0de63c1f1.png)
+
   
 ## Fase 4: PrivEsc
-  
+
+![image](https://user-images.githubusercontent.com/115549820/207064484-371951fe-ef31-418e-8b19-eca94afd49e8.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207065736-b15caeeb-3b07-4902-b557-4878c9bfa84d.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207066148-6683d000-9af4-48cc-909a-00264f4af89c.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207066244-9d4e23a9-9aa4-461e-bcb7-4154bad28bb8.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207066739-30ede6ff-6249-4e90-9730-ba1e7a5b9503.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207067025-ac18edab-0d92-45b4-9ec0-2f7018cacf67.png)
+
+
 ## TryHackMe Questions
 
 What is key 1?
 > 073403c8a58a1f80d943455fb30724b9
 
 What is key 2?
+> 822c73956184f694993bede3eb39f959
 
 What is key 3?
+> 04787ddef27c3dee1ee161b21670b4e4
