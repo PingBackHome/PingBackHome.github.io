@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TryHackMe | Cyborg
+title: TryHackMe | AnonForce
 categories: TryHackMe
 ---
 
