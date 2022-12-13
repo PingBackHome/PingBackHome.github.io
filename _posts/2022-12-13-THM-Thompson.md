@@ -1,4 +1,11 @@
-# TryHackMe | {name}
+
+---
+layout: post
+title: TryHackMe | Thompson
+categories: TryHackMe
+---
+
+# TryHackMe | Thompson
 
 +++++++++++++++++++++++++++++++++++\
 IP: 10.10.36.151\
