@@ -70,13 +70,28 @@ https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/tomcat
 
 ![image](https://user-images.githubusercontent.com/115549820/207414081-c573022e-ff9f-4787-a54a-4745787dd612.png)
 
-  
+![image](https://user-images.githubusercontent.com/115549820/207415291-27df9c47-18b7-4a19-8718-cfbc247bb49d.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207415705-06cc4646-7dd1-41c5-9beb-a2567e5b3b1e.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207417698-7a568fe0-27fc-4901-8bad-1adf556fd059.png)
+
+
+![image](https://user-images.githubusercontent.com/115549820/207417055-32323c53-aa4f-44e2-aa4d-d9b28d284653.png)
+
+![image](https://user-images.githubusercontent.com/115549820/207417130-00729063-480e-4f45-bc96-500f8e4df92d.png)
+
 ## Fase 4: PrivEsc
-  
+
+![image](https://user-images.githubusercontent.com/115549820/207419887-4ba1ba07-0f8d-49ec-b30b-a2d112ae6eba.png)
+
+
+![image](https://user-images.githubusercontent.com/115549820/207418160-915b2ccf-8901-451c-8c7a-e5e9c60ec2f5.png)
+
 ## TryHackMe Questions
 
 user.txt
->
+> 39400c90bc683a41a8935e4719f181bf
 
 root.txt
->
+> d89d5391984c0450a95497153ae7ca3a
