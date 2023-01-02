@@ -111,5 +111,36 @@ Date: 21-12-2022\
 <img width="404" alt="image" src="https://user-images.githubusercontent.com/115549820/208940135-95f5022f-6c4f-487c-9808-e0189decc9e4.png">
 
 ## Fase 4: PrivEsc
-  
+
+**Inspecting scripting folder**
+
+<img width="351" alt="image" src="https://user-images.githubusercontent.com/115549820/210219757-243b36d5-1e8e-483b-a0f8-9714abe571b8.png">
+
+<img width="411" alt="image" src="https://user-images.githubusercontent.com/115549820/210219966-15f9e624-3437-4636-9995-2cf28cc44b70.png">
+
+**Inspecting /etc/print.sh**
+
+<img width="411" alt="image" src="https://user-images.githubusercontent.com/115549820/210220259-62a1c5ba-11c9-46de-b2e2-796767739478.png">
+
+<img width="411" alt="image" src="https://user-images.githubusercontent.com/115549820/210220317-73db3b41-1d41-4d86-8bf8-f85191943fdd.png">
+
+**Add reverse shell to print.sh**
+
+<img width="1151" alt="image" src="https://user-images.githubusercontent.com/115549820/210220452-83318d22-902d-4068-8f5b-b061815a73fc.png">
+
+<img width="575" alt="image" src="https://user-images.githubusercontent.com/115549820/210220570-8e043518-3394-4d65-ba6a-973cb4c1db3f.png">
+
+<img width="148" alt="image" src="https://user-images.githubusercontent.com/115549820/210220634-d0771c75-0a9f-4af7-9fed-ca94ff1287f1.png">
+
+<img width="410" alt="image" src="https://user-images.githubusercontent.com/115549820/210220807-5ae90775-77e5-4a21-9f90-0644b1b61520.png">
+
+<img width="410" alt="image" src="https://user-images.githubusercontent.com/115549820/210220939-f28b936f-2298-4728-a7f5-544761199651.png">
+
+
 ## TryHackMe Questions
+
+> user.txt
+> THM{03ce3d619b80ccbfb3b7fc81e46c0e79}
+
+> root.txt
+> THM{f963aaa6a430f210222158ae15c3d76d}
