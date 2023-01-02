@@ -139,8 +139,8 @@ Date: 21-12-2022\
 
 ## TryHackMe Questions
 
-> user.txt
+> user.txt\
 > THM{03ce3d619b80ccbfb3b7fc81e46c0e79}
 
-> root.txt
+> root.txt\
 > THM{f963aaa6a430f210222158ae15c3d76d}
