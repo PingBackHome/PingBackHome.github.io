@@ -89,7 +89,67 @@ https://security.snyk.io/vuln/SNYK-RUBY-PDFKIT-2869795
   
 ## Fase 3: Intern Enumeration
 
+<img width="494" alt="image" src="https://user-images.githubusercontent.com/115549820/210998989-3c2eeb42-b65e-43a1-93c5-57299373f1d6.png">
+
+<img width="494" alt="image" src="https://user-images.githubusercontent.com/115549820/210999083-7489fb5c-a3b1-40fa-8bd0-f1988fa06507.png">
+
+<img width="574" alt="image" src="https://user-images.githubusercontent.com/115549820/210999462-e88dbe3c-b7d3-4d8f-8723-9f5af73b5637.png">
+
+***Upload linpeas.sh***
+
+<img width="574" alt="image" src="https://user-images.githubusercontent.com/115549820/211000298-452c5a80-55e0-4344-af64-f8d87cfeafba.png">
+
+***Linpeas output***
+
+<img width="571" alt="image" src="https://user-images.githubusercontent.com/115549820/211000798-f7b0c2b4-b280-4200-aef7-0125bfdc516c.png">
+
+<img width="571" alt="image" src="https://user-images.githubusercontent.com/115549820/211000931-70c7b2c6-bd41-4b6f-929b-55597c20bdf5.png">
+
+<img width="571" alt="image" src="https://user-images.githubusercontent.com/115549820/211001324-161a8347-d2da-4dd4-ab93-829b5d01e3d8.png">
+
+<img width="571" alt="image" src="https://user-images.githubusercontent.com/115549820/211001851-c70ebd3f-a86b-48d3-b034-44cddef48119.png">
+
+<img width="571" alt="image" src="https://user-images.githubusercontent.com/115549820/211001943-afb42d3a-6088-488e-be9e-6d217426db82.png">
+
+***.bundle/config***
+
+<img width="571" alt="image" src="https://user-images.githubusercontent.com/115549820/211002491-29b82ff7-cdc5-4b55-a00a-18c272308e39.png">
+
+> Possible Credential for Henry
+> henry:Q3c1AqGHtoI0aXAYFH
+
+***Login with creds***
+
+<img width="567" alt="image" src="https://user-images.githubusercontent.com/115549820/211003296-eaa350fd-cbdc-44cf-8e7c-7effe585b461.png">
+
+***user.txt***
+
+<img width="566" alt="image" src="https://user-images.githubusercontent.com/115549820/211008892-99b7c2d1-34a7-486f-8149-6c0c8a175770.png">
   
 ## Fase 4: PrivEsc
-  
+
+<img width="566" alt="image" src="https://user-images.githubusercontent.com/115549820/211009147-4f57a6f8-b061-4bb4-9fb3-c82d5a7427de.png">
+
+***/opt/***
+
+<img width="566" alt="image" src="https://user-images.githubusercontent.com/115549820/211009384-15639b10-8c85-44c0-9eb4-5f59ab01a309.png">
+
+***update_dependencies.rb***
+
+<img width="566" alt="image" src="https://user-images.githubusercontent.com/115549820/211009720-b24444c0-8870-4ac4-9f70-e640010c2cdd.png">
+
+***dependencies.yml***
+
+<img width="566" alt="image" src="https://user-images.githubusercontent.com/115549820/211009790-e6fae937-6cd7-4011-865b-0b33a51389cd.png">
+
+***No write priv in opt direcotory***
+
+<img width="566" alt="image" src="https://user-images.githubusercontent.com/115549820/211013669-751cf43b-0fe1-4343-ae63-3ddff6f26bf1.png">
+
+***Creating yml file***
+
+https://gist.github.com/staaldraad/89dffe369e1454eedd3306edc8a7e565#file-ruby_yaml_load_sploit2-yaml
+
+
+
 ## HackTheBox Questions
