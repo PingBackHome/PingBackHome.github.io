@@ -1,7 +1,7 @@
 ---
 layout: post
-title: TryHackMe | Kenobi
-categories: TryHackMe
+title: HackTheBox | Soccer
+categories: HackTheBox
 ---
 
 # HackTheBox | {name}
