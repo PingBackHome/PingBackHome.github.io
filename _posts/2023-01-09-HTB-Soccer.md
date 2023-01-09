@@ -4,7 +4,7 @@ title: HackTheBox | Soccer
 categories: HackTheBox
 ---
 
-# HackTheBox | {name}
+# HackTheBox | Soccer
 
 +++++++++++++++++++++++++++++++++++\
 IP: 10.10.11.194\
