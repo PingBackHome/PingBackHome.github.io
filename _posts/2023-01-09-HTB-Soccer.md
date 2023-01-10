@@ -109,7 +109,12 @@ Date: 09-01-2023\
 
 <img width="536" alt="image" src="https://user-images.githubusercontent.com/115549820/211526075-758f7a27-5da3-4ffb-aba4-aa31c1951cdc.png">
 
-  
+***Output SQLmap***
+
+<img width="565" alt="image" src="https://user-images.githubusercontent.com/115549820/211527672-b24fe52c-d013-4e18-8e33-3070de0f97db.png">
+
+> Credentials:\
+> player::PlayerOftheMatch2022
 ## Fase 4: PrivEsc
   
 ## HackTheBox Questions
