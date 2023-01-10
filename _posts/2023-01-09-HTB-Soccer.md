@@ -89,6 +89,26 @@ Date: 09-01-2023\
 
 ***Sign up***
 
+<img width="795" alt="image" src="https://user-images.githubusercontent.com/115549820/211521207-5b26ab88-6341-4dba-a292-230a59d24666.png">
+
+***/check***
+
+<img width="795" alt="image" src="https://user-images.githubusercontent.com/115549820/211521399-15a41214-6ba6-4920-a795-31bee3029e16.png">
+
+***/check: sourcecode***
+
+<img width="795" alt="image" src="https://user-images.githubusercontent.com/115549820/211521680-2c26f490-1360-4603-b0cd-194c09480333.png">
+
+***Crafting python script for SQL***
+
+<img width="795" alt="image" src="https://user-images.githubusercontent.com/115549820/211523633-ba7bbaca-77d7-4911-ba1b-b8dd0d01d302.png">
+
+***Running script && SLQmap***
+
+<img width="536" alt="image" src="https://user-images.githubusercontent.com/115549820/211525860-281184d2-b811-4366-99cc-f0c8cb544d00.png">
+
+<img width="536" alt="image" src="https://user-images.githubusercontent.com/115549820/211526075-758f7a27-5da3-4ffb-aba4-aa31c1951cdc.png">
+
   
 ## Fase 4: PrivEsc
   
