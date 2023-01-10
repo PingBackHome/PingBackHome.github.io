@@ -70,9 +70,24 @@ Date: 09-01-2023\
 <img width="378" alt="image" src="https://user-images.githubusercontent.com/115549820/211295028-ca9ac55b-719a-44f0-a864-1815758d0b13.png">
 
 <img width="542" alt="image" src="https://user-images.githubusercontent.com/115549820/211295258-8306fd45-c7a5-4606-a568-2bbb1b469b6a.png">
-
   
 ## Fase 3: Intern Enumeration
+
+<img width="469" alt="image" src="https://user-images.githubusercontent.com/115549820/211516206-f5bfbb0a-be2a-49c2-84be-1419704b05eb.png">
+
+<img width="469" alt="image" src="https://user-images.githubusercontent.com/115549820/211516378-7e808800-a30a-427c-aedd-6434d09001b2.png">
+
+<img width="469" alt="image" src="https://user-images.githubusercontent.com/115549820/211516573-0a629194-dfb9-449d-bafa-d2225577fb3b.png">
+
+***Add soc-player.soccer.htb***
+
+<img width="469" alt="image" src="https://user-images.githubusercontent.com/115549820/211517000-96039a5a-e371-48d5-8c95-e197ea705fe1.png">
+
+***soc-player.soccer.htb***
+
+<img width="795" alt="image" src="https://user-images.githubusercontent.com/115549820/211517755-92359e17-5f53-44d2-8f2e-7a15dedbf58f.png">
+
+***Sign up***
 
   
 ## Fase 4: PrivEsc
