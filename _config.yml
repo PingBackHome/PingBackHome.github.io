@@ -1,0 +1,41 @@
+title: PingBackHome
+description: Projects & Writeups
+
+url: https://long-haul.netlify.app
+# Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
+baseurl: # Ex: /project-page
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+# Header Option
+# header: large
+
+sass:
+    style: compressed
+
+markdown: kramdown
+highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 5
+
+navigation:
+    - title: Home
+      url: /index.html
+    - title: About
+      url: /about
+    - title: Contact
+      url: /contact
+
+social:
+    github: PingBackHome
+    twitter: 
+    facebook: 
+    email: 
+    linkedin: 
+    youtube: 
+    tumblr: 
+
+google_analytics: ""
+
+disqus:
+    shortname: 
