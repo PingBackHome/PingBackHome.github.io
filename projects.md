@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Projects
+permalink: /projects/
 ---
 
-#test
+## Projecten
+
+- [Project 1](/_projects/2024-03-11-test.md)
+  
