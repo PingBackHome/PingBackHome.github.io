@@ -3,7 +3,7 @@ layout: default
 title: Projects
 ---
 
-<div id="articles">
+<div id="projects">
   <h1>Projects</h1>
   <ul class="posts noList">
     {%- for project in site.projects -%}
