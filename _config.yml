@@ -2,7 +2,6 @@ title: PingBackHome
 description: Projects & Writeups
 
 url: https://PingBackHome.github.io
-# Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
 baseurl: # Ex: /project-page
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
@@ -17,6 +16,11 @@ markdown: kramdown
 highlighter: rouge
 plugins: [jekyll-paginate]
 paginate: 5
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
 
 navigation:
     - title: Home
