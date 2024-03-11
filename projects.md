@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-## Projecten
+## Projects
 
-- [Project 1](/_projects/2024-03-11-test.md)
+- [TEST PROJECT](/_projects/2024-03-11-test.md)
   
