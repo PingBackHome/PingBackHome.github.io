@@ -1,0 +1,22 @@
+---
+layout: default
+title: PingBackHomeProjects
+---
+
+<div class="home" id="home">
+    <h1 class="pageTitle">Recent Projects</h1>
+    <div class="posts noList">
+        {%- for project in site.projects -%}
+        <article>
+            <span class="date">{{ project.date | date: '%B %d, %Y' }}</span>
+            <h3>
+                <a class="post-link" href="{{ project.url | relative_url }}">{{ project.title }}</a>
+            </h3>
+            <p>
+                {%- if project.description -%}{{ project.description }}{%- else -%}{{
+                project.content | strip_html | truncatewords: 30 }}{%- endif -%}
+            </p>
+        </article>
+        {%- endfor -%}
+    </div>
+</div>
