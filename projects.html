@@ -6,7 +6,12 @@ title: PingBackHomeProjects
 <div class="home" id="home">
     <h1 class="pageTitle">Recent Projects</h1>
     <div class="posts noList">
-        {%- for project in site.projects -%}
+        {%- if paginator -%}
+        {%- assign projects = paginator.posts -%}
+        {%- else -%}
+        {%- assign projects = site.projects -%}
+        {%- endif -%}
+        {%- for project in projects -%}
         <article>
             <span class="date">{{ project.date | date: '%B %d, %Y' }}</span>
             <h3>
@@ -19,4 +24,20 @@ title: PingBackHomeProjects
         </article>
         {%- endfor -%}
     </div>
+    <!-- Pagination links -->
+    {%- if paginator -%}
+    <div class="pagination">
+        {%- if paginator.previous_page -%}
+        <a
+            href="{{ paginator.previous_page_path | relative_url }}"
+            class="previous button__outline"
+            >Newer Projects</a
+        >
+        {%- endif -%} {%- if paginator.next_page -%}
+        <a href="{{ paginator.next_page_path | relative_url }}" class="next button__outline"
+            >Older Projects</a
+        >
+        {%- endif -%}
+    </div>
+    {%- endif -%}
 </div>
