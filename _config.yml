@@ -28,7 +28,7 @@ navigation:
     - title: Write-ups
       url: /articles
     - title: Projects
-      url: /projects.html
+      url: /projects
     - title: About
       url: /about
     - title: Contact
