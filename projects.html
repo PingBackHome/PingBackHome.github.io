@@ -16,7 +16,8 @@ title: PingBackHomeProjects
   <div id="articles">
     <h1>Projects</h1>
     <ul class="posts noList">
-      {%- for project in site.projects -%}
+      {%- assign sorted_projects = site.projects | sort: 'date' | reverse -%}
+      {%- for project in sorted_projects -%}
         <li>
           <span class="date">{{ project.date | date_to_string }}</span>
           <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
