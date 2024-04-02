@@ -49,3 +49,13 @@ Now that we have more direction, we can start searching more purposefully. For n
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/1e41dadc-0303-47a6-b8d1-80a4b1fbfb22)
 
+As you can see, we are presented with a window containing various options to choose from. I'll go through them one by one and highlight the interesting/important aspects for you.
+
+Options - Output:
+
+- Prepare = nothing
+- Fsociety = nothing
+- Inform
+- Question
+- Wakeup
+- Join
