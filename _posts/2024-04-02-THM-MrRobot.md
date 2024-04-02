@@ -44,3 +44,8 @@ In this output, we can see that ports `22` (SSH), `80` (HTTP), and `443` (HTTPS)
 ### RECON\\Port 80
 
 Now that we have more direction, we can start searching more purposefully. For now, we'll leave the SSH on port 22 aside. Bruteforcing without any credentials can be time-consuming and might not be the right approach. Let's start with the Apache server on port 80. We can do this simply by opening a web browser and browsing to [http://10.10.80.8](http://10.10.80.8), not HTTPS but HTTP (keep this in mind).
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/54f8469d-520b-47ab-9386-f7d5c401dd27)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/1e41dadc-0303-47a6-b8d1-80a4b1fbfb22)
+
