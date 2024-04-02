@@ -4,10 +4,6 @@ title: TryHackMe | Glitch
 categories: THM
 ---
 
-test\
-test\
-test\
-test\
 
 
 # TryHackMe | Glitch
