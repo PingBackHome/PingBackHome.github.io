@@ -9,7 +9,7 @@ _Unraveling MrRobot: CTF_
 
 ## Recon
 
-### NMAP scan
+### RECON\\NMAP scan
 
 As usual, we begin with a simple nmap scan on the provided IP address, in my case, it's IPv4 `10.10.80.8`. I'm using the following parameters in my command:
 
@@ -39,3 +39,8 @@ PORT     STATE    SERVICE    VERSION
 ```
 
 In this output, we can see that ports `22` (SSH), `80` (HTTP), and `443` (HTTPS) are open. Additionally, we have some information about the web server running on ports `80` and `443`, indicating it's Apache HTTP server. The SSL certificate information is also provided for port `443`, showing the common name and validity dates.
+
+
+## RECON\\Port 80
+
+Now that we have more direction, we can start searching more purposefully. For now, we'll leave the SSH on port 22 aside. Bruteforcing without any credentials can be time-consuming and might not be the right approach. Let's start with the Apache server on port 80. We can do this simply by opening a web browser and browsing to [http://10.10.80.8](http://10.10.80.8), not HTTPS but HTTP (keep this in mind).
