@@ -4,7 +4,7 @@ title: TryHackMe | Mr. Robot CTF
 categories: THM
 ---
 
-# Unraveling MrRobot: CTF
+_Unraveling MrRobot: CTF_
 
 
 ## Recon
