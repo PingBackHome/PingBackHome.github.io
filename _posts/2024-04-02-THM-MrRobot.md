@@ -56,6 +56,6 @@ Options - Output:
 - Prepare = nothing
 - Fsociety = nothing
 - Inform = nothing
-- Question
-- Wakeup
+- Question = nothing
+- Wakeup = movie clip
 - Join = request for your e-mailaddress, hmmm questionable...
