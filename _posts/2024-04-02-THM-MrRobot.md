@@ -9,7 +9,7 @@ _Unraveling MrRobot: CTF_
 
 ## Recon
 
-### RECON\\NMAP scan
+### RECON\nmap scan
 
 As usual, we begin with a simple nmap scan on the provided IP address, in my case, it's IPv4 `10.10.80.8`. I'm using the following parameters in my command:
 
@@ -41,7 +41,7 @@ PORT     STATE    SERVICE    VERSION
 In this output, we can see that ports `22` (SSH), `80` (HTTP), and `443` (HTTPS) are open. Additionally, we have some information about the web server running on ports `80` and `443`, indicating it's Apache HTTP server. The SSL certificate information is also provided for port `443`, showing the common name and validity dates.
 
 
-### RECON\\Port 80
+### RECON\port 80
 
 Now that we have more direction, we can start searching more purposefully. For now, we'll leave the SSH on port 22 aside. Bruteforcing without any credentials can be time-consuming and might not be the right approach. Let's start with the Apache server on port 80. We can do this simply by opening a web browser and browsing to [http://10.10.80.8](http://10.10.80.8), not HTTPS but HTTP (keep this in mind).
 
@@ -83,5 +83,24 @@ The command looks like this: `wpscan --url http://10.10.148.45 -o wpscan1.txt`.
 
 Let's see what output we get and if it provides us with any useful information.
 
+The output reveals several interesting findings, as shown below:
 
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/e7551594-dea0-41c4-919a-9a8d542cc82d)
 
+We can see that there should be a robots.txt file, and furthermore, XML-RPC is enabled, and the theme being used is identified.
+
+Let's start by examining robots.txt.
+
+### RECON\robots.txt
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/2acf1803-9f10-41fd-a503-b70cac446682)
+
+As you can see in the screenshot above, there are two items we can investigate: `fsocity.dic` and `key-1-of-3.txt`.
+If we browse to `key` first, we get the following output:
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/f3668bd5-cc25-4a0d-aa50-45aee1df1270)
+
+Great, we've got the first key!
+Now, let's take a look at the second file: `fsocity.dic`.
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/c1dad711-aa8d-4ed8-a79b-df608845a67c)
