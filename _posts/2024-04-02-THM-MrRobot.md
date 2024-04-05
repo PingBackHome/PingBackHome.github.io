@@ -104,3 +104,15 @@ Great, we've got the first key!
 Now, let's take a look at the second file: `fsocity.dic`.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/c1dad711-aa8d-4ed8-a79b-df608845a67c)
+
+Once we have `fsocity.dic`, I'll first inspect what it contains by displaying the first 15 lines.
+I'll do this by executing: `head -n 15 fsocity.dic`, see the result below:
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/1532abd8-fae6-46d4-b6ef-ea55a5902c50)
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/d4035eb9-f4da-4819-ad28-777859cd58fb)
+
+It's always nice to get a wordlist :)
+However, it seems quite large to me, so let's play around with it to streamline and shrink it if possible.
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/67fb5d87-9cbb-40ad-aa51-46275c8c43a1)
+
