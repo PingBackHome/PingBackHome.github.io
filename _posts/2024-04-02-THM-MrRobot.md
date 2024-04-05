@@ -59,3 +59,29 @@ Options - Output:
 - Question = nothing
 - Wakeup = movie clip
 - Join = request for your e-mailaddress, hmmm questionable...
+
+Unfortunately, this hasn't yielded much yet. Let's take a look at some source code of the website. Perhaps this will reveal some information that could be useful.
+
+**Main page**
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/87a661b4-9d85-4919-a5d4-9a473787c49d)
+The main page reveals little information, let's move on to the next one.
+
+**Join page**
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/66d9ac63-adb2-4f4c-9341-0c28c00edc2e)
+Now we have something. If you look at line 8 in the source code, you'll see a reference to `wp-content`, which could indicate that it's a WordPress website. Let's investigate this further.
+
+### RECON\wpscan
+
+On your Kali Linux distribution, the `wpscan` tool is installed by default. With this tool, you can scan WordPress sites for vulnerabilities, plugins, themes, and users. It provides extensive functionality for detecting potential security issues, such as known vulnerabilities in WordPress core, plugins, and themes. Additionally, `wpscan` can gather information about usernames, including admin accounts, and perform brute force attacks to identify weak passwords. It's a powerful tool for assessing the security status of WordPress sites during penetration tests or security audits.
+
+Let's take a look at the syntax of `wpscan`. We can do this by opening the terminal and executing the command `wpscan -h`. Below is the result:
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/b52374b0-48c8-44e5-b8a2-ddbf7cc378e5)
+
+As you can see in the output, we need to provide some parameters with the command. These are `--url` and `-o`, and for now, we'll leave the rest on default settings as we don't have much information yet.
+
+The command looks like this: `wpscan --url http://10.10.148.45 -o wpscan1.txt`.
+
+Let's see what output we get and if it provides us with any useful information.
+
+
+
