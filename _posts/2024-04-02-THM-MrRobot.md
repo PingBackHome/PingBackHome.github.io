@@ -115,4 +115,5 @@ It's always nice to get a wordlist :)
 However, it seems quite large to me, so let's play around with it to streamline and shrink it if possible.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/67fb5d87-9cbb-40ad-aa51-46275c8c43a1)
+As you may have noticed, the file has become significantly smaller after removing all duplicate entries. We started with approximately 7MB, and currently, we're down to about 95KB :):):)
 
