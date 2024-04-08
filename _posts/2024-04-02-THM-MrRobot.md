@@ -117,3 +117,13 @@ However, it seems quite large to me, so let's play around with it to streamline 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/67fb5d87-9cbb-40ad-aa51-46275c8c43a1)
 As you may have noticed, the file has become significantly smaller after removing all duplicate entries. We started with approximately 7MB, and currently, we're down to about 95KB :):):)
 
+Okay, we now have a fairly small wordlist. Where can we apply this?\
+As you may have noticed, the SSH port is closed, so there must be another way to log in.\
+Let's continue with enumeration, let's start with dirb.
+
+### Recon\dirb
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/d0cebb64-8926-4b00-a244-e76dcde98bf7)
+
+As you can see in the screenshot above, there are several things of interest.\
+We already know that there is a WordPress site running, so let's take a look at `/wp-login`.
