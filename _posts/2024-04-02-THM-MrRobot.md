@@ -194,7 +194,15 @@ And there we go, we're in :) Let's now continue our quest to find the remaining 
 
 ## Post-Exploit
 
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/27f36392-8793-42ba-8ef3-7adb2ea7c191)
 
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/381b508f-0740-447e-8692-9264f606013c)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/ca70f080-60b8-42f5-bda5-fa3ab7bf7898)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/ae37c3eb-ed11-4993-b3bd-96267ee4e65b)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/9466e359-b4cb-4db3-b18a-7dc3af2e6644)
 
 
 
