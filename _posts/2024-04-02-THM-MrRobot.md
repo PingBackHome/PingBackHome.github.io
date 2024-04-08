@@ -126,4 +126,32 @@ Let's continue with enumeration, let's start with dirb.
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/d0cebb64-8926-4b00-a244-e76dcde98bf7)
 
 As you can see in the screenshot above, there are several things of interest.\
-We already know that there is a WordPress site running, so let's take a look at `/wp-login`.
+We already know that there is a WordPress site running, so let's take a look at `/wp-login` & `/licence`.
+
+**/licence**
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/50650dae-5ac8-4d56-9beb-ca5358065954)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/548fb279-ddd5-4ef2-8659-46e5959b8d54)
+
+As you can see in the inspection screen, we've obtained a hash. 
+Let's use an online tool to determine what kind of hash this is, and then see if we can convert it into human-readable text using CyberChef.\
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/2a18aa3c-8d9f-42e9-a649-0aa30cc51857)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/6522c9e8-0260-442a-bb3a-0903b7560c90)
+
+Okay, we now have a username and probably the password for a user.
+
+**/wp-login**
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/080acf42-8d61-4d38-a969-88e9ea0781ad)
+
+As you can see in the screenshot above, we have a working login page for WordPress.\
+Although we already have the credentials, I still want to use `wpscan` to see if we get the same password as on the `/license` page.
+
+For this, I'm using the following parameters:
+- U = username, aka elliot
+- P = passwordlist, aka fsocitity_uniq.txt
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/34627815-7237-4f0a-b557-78a448393fb5)
