@@ -155,3 +155,25 @@ For this, I'm using the following parameters:
 - P = passwordlist, aka fsocitity_uniq.txt
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/34627815-7237-4f0a-b557-78a448393fb5)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/92aed4f6-a0cf-4bd4-b59e-4319d69e5e52)
+
+As you can see, the passwords match :)\
+Let's log in.
+
+### Recon\wordpress
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/754cbb94-4f6b-4229-8c49-590b4858ba0d)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/a052c816-5da0-4212-b4f0-756235f24d21)
+
+Now that we're logged in, we can probably add a reverse shell to the header section.
+I'll fetch the code for the reverse shell from `Pentestmonkey`'s GitHub site.
+
+### Exploit\wordpress
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/3de92d01-437b-4dc4-80b1-9d0bdfe7aa40)
+
+
+
+
