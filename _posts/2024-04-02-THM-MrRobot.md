@@ -174,6 +174,16 @@ I'll fetch the code for the reverse shell from `Pentestmonkey`'s GitHub site.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/3de92d01-437b-4dc4-80b1-9d0bdfe7aa40)
 
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/d1313516-c118-4529-aae9-1c5e8ec39861)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/1c300d40-a5be-4300-8532-ec01db02b185)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/566ae3c5-45cd-41f9-ab03-d7451326fe67)
+
+
+
+
+
 
 
 
