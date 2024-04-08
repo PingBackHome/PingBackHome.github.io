@@ -172,9 +172,16 @@ I'll fetch the code for the reverse shell from `Pentestmonkey`'s GitHub site.
 
 ### Exploit\wordpress
 
+The reverse shell can be found at: [https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php)
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/3de92d01-437b-4dc4-80b1-9d0bdfe7aa40)
 
+I will place the reverse shell in the 404.php file, which can be found in `Appearance` and then right-click `404.php`. I will overwrite the current code with the reverse shell.
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/d1313516-c118-4529-aae9-1c5e8ec39861)
+
+And on my attacker's machine, I'll start a listener with netcat on the specified port, for me this is port 5566.
+The syntax is then: `nc -nlvp 5566`.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/1c300d40-a5be-4300-8532-ec01db02b185)
 
