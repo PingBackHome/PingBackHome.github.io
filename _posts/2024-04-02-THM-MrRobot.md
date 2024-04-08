@@ -170,6 +170,8 @@ Let's log in.
 Now that we're logged in, we can probably add a reverse shell to the header section.
 I'll fetch the code for the reverse shell from `Pentestmonkey`'s GitHub site.
 
+## Exploit
+
 ### Exploit\wordpress
 
 The reverse shell can be found at: [https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php)
@@ -185,8 +187,12 @@ The syntax is then: `nc -nlvp 5566`.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/1c300d40-a5be-4300-8532-ec01db02b185)
 
+And there we go, we're in :) Let's now continue our quest to find the remaining two keys.
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/566ae3c5-45cd-41f9-ab03-d7451326fe67)
 
+
+## Post-Exploit
 
 
 
