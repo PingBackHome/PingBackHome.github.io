@@ -196,7 +196,16 @@ And there we go, we're in :) Let's now continue our quest to find the remaining 
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/27f36392-8793-42ba-8ef3-7adb2ea7c191)
 
+We're finally in on the Apache server. Let's execute some commands to see which user we are, where we are, and if we can browse to the root folder.\
+`pwd` = Present Working Directory\
+`id` = Which groups is the user a member of
+
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/381b508f-0740-447e-8692-9264f606013c)
+
+At least for now, we can't access the root directory with the current user (which I didn't expect either). When we navigate to the home folder, we see that there's one user with a home directory.\
+This user is `robot`. When we list the contents of this home directory, we see two files.\
+`key-2-of-3` is not readable for our current user. Additionally, we see a file named `password.raw-md5`, which can be read by anyone.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/ca70f080-60b8-42f5-bda5-fa3ab7bf7898)
 
