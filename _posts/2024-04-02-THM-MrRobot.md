@@ -227,3 +227,9 @@ And there we go, we're in :) Let's now continue our quest to find the remaining 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/df23dc49-0a29-46af-9194-b18fb124aa07)
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/e66dbd5b-35a9-44f8-8642-c0b7db4958ab)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/2d5ead54-471d-42e0-9f80-7970c1ff0b85)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/e8fc51de-ee26-4aee-9e00-b80df948116a)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/7a65d412-3dad-47c4-b2fa-fdcdb96a1f3d)
