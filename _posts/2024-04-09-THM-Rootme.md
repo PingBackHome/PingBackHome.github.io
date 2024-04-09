@@ -98,4 +98,77 @@ Now let's go hunting for the two flags.
 
 ## Post-Exploit
 
+Alright, let's start with where I am, who I am, and what capabilities I have.
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/9fb994d0-4f53-4312-9ed4-0bcbdf39d853)
+
+Hmmm, that didn't give us much information.\
+Let's search for the first flag.\
+`find / -name user.txt 2>/dev/null`
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/b755c522-b3b4-4a55-a7fd-2814562ebf17)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/45140444-56f7-47c8-8125-1cd23272b804)
+
+We have the first flag :)\
+But now we need to be able to read the root.txt flag in the root folder.\
+This means we need to gain root privileges, i.e., privilege escalation.
+
+## Privilege Escalation
+
+### Privilege Escalation\suid
+
+We can search for files/programs on the server that are not properly configured and might have root privileges.
+We can do this by executing the following command on the server:
+`find / -user root -perm /4000 2>/dev/null`
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/a072d7ca-1980-4e6e-9153-82cfe91d883c)
+
+We've received a list of programs that we can inspect via gtfobins. See link:
+[gtfobins.github.io](https://gtfobins.github.io)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/82f15366-d2d8-45f8-9ce6-c7f1014cbc82)
+
+I think Python is the best option to exploit root privileges.\
+And then I'll scroll to the "File read" section on gtfobins:
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/19df076f-f55b-4c96-88e0-0c752d4d4c28)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/1e97711e-6c15-4546-8151-34638e833be5)
+
+We now have both flags :)
+
+
+# Summary 
+1. **Initial Scan:**
+   - Conducted an initial nmap scan on the IP address `10.10.99.1` using the command `nmap -sC -sV -A 10.10.99.1`.
+   - Identified two open ports:
+     - Port 22: SSH
+     - Port 80: HTTP Apache
+
+2. **Web Server Exploration:**
+   - Explored the web server on port 80.
+   - Found nothing significant on the homepage.
+   - Inspected the source code but found no noteworthy information.
+
+3. **Directory Enumeration:**
+   - Utilized gobuster to search for directories.
+   - Discovered two interesting directories: `/panel` and `/uploads`.
+
+4. **Reverse Shell Attempt:**
+   - Attempted to upload a reverse shell at `/panel` but found out the server didn't accept PHP.
+   - Tried different file extensions (`php4`, `php5`, `.phtml`) for the reverse shell and found that all three were accepted by the server.
+   - Located all three reverse shell files in the `/uploads` directory.
+   - Tried triggering the reverse shells to establish a connection.
+
+5. **Flag Retrieval:**
+   - Successfully found the first flag by searching for `user.txt`.
+
+6. **Privilege Escalation:**
+   - Explored potential privilege escalation by searching for files/programs owned by root and with the setuid bit set using the command `find / -user root -perm /4000 2>/dev/null`.
+   - Received a list of programs to inspect via gtfobins.
+   - Determined Python as the best option for exploiting root privileges and scrolled to the "File read" section on gtfobins.
+
+7. **Flag Acquisition:**
+   - Successfully obtained both flags.
+
 
