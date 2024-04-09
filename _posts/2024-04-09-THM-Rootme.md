@@ -49,10 +49,53 @@ Let's inspect these.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/7d5712c2-b591-4729-a481-86c1abe723ac)
 
-It seems that we can upload something at /panel.
-Let's see if we can upload a reverse shell and establish a connection. As usual, we'll use a standard reverse shell from pentestmonkey. Let's start with PHP, see link: [php-reverse-shell.php](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php)
+It seems that we can upload something at /panel.\
+Let's see if we can upload a reverse shell and establish a connection. As usual, we'll use a standard reverse shell from pentestmonkey. \
+Let's start with PHP, see link: [php-reverse-shell.php](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php)
 
 ## Exploit
 
 ### Exploit\upload bypass
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/671e9f84-8ceb-4793-a131-39a192937d61)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/0147509d-9f6f-4b1b-9b0a-b66f759fc406)
+
+And we set up a netcat listener on port 5566 on the attacker's machine.
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/cb11afcb-849e-4a63-83c2-6954e1b3ed4f)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/ca264d89-87cc-42b8-953b-bfa1de266b6b)
+
+Unfortunately, the server doesn't accept PHP. Let's explore other possibilities.
+Let's make several copies of the rvs.php shell but with different extensions.
+- .php4
+- .php5
+- .phtml
+We'll see which one works, if any.
+
+The server accepts all three other extensions. See screenshot for success.
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/bb5bc18b-ca0c-4cc8-81a2-58af43a608ec)
+
+But how do we trigger these shells? Most likely, we'll see our reverse shell at /uploads.
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/3138cbbb-5b39-4d82-ba45-143f98c446d8)
+
+And indeed, all three rvs.php* files are at uploads. Let's see which of the three can trigger the reverse shell:
+
+**rvs.php4**
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/951f4d9f-7c28-4932-b719-f8c56a73c160)
+
+**rvs.php5**
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/cb1e7af5-6826-4de8-a166-522b1ceaa80c)
+
+**rvs.phtml**
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/daf6eba5-ee57-474d-aff6-e07779c86bc6)
+
+As you can see above, there are at least two ways to get a working shell on the server.
+Now let's go hunting for the two flags.
+
+## Post-Exploit
+
 
