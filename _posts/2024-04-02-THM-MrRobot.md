@@ -4,7 +4,7 @@ title: TryHackMe | Mr. Robot CTF
 categories: THM
 ---
 
-_Unraveling MrRobot: CTF_
+_This writeup provides insights into the journey of navigating through challenges, exploiting vulnerabilities, and achieving victory._
 
 
 ## Recon
