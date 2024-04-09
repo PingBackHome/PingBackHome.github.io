@@ -271,3 +271,15 @@ The vulnerable versions are 2.02 - 5.12, and the output of `nmap --version` indi
 Now that we are root users, we can read the final flag :):)
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/7a65d412-3dad-47c4-b2fa-fdcdb96a1f3d)
+
+
+## Summary
+
+In this CTF challenge, we started by conducting a simple nmap scan on the provided IP address. 
+Through the scan, we identified open ports and services running on the target machine. We utilized various tools such as `wpscan` to enumerate vulnerabilities in WordPress and found credentials for a user. We leveraged these credentials to gain access to the WordPress admin panel and executed a reverse shell to gain initial access to the system.
+
+From there, we performed privilege escalation by exploiting vulnerabilities in the system and escalating our privileges to root. We utilized tools like `linpeas.sh` for enumeration and identified vulnerable versions of `nmap`. Exploiting these vulnerabilities allowed us to escalate our privileges to root, giving us complete control over the system.
+
+With root access, we were able to access sensitive files, retrieve flags, and ultimately complete the challenge.
+
+This CTF provided hands-on experience in penetration testing techniques, privilege escalation, and exploiting vulnerabilities to gain unauthorized access.
