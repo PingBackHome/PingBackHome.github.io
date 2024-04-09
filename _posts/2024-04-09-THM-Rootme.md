@@ -8,8 +8,8 @@ categories: THM
 
 ### Recon\nmap
 
-We start with a simple nmap scan on the IP address: `10.10.99.1`
-The syntax I'm using for the scan is: `nmap -sC -sV -A 10.10.99.1 -o nmap_scan1.txt`
+We start with a simple nmap scan on the IP address: `10.10.99.1`\
+The syntax I'm using for the scan is: `nmap -sC -sV -A 10.10.99.1 -o nmap_scan1.txt`\
 Explanation:
 
 - **-sC**: This option tells Nmap to scan with default scripts. It runs a set of scripts which are useful for identifying common vulnerabilities and gathering additional information about the target.
@@ -18,8 +18,8 @@ Explanation:
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/e09232c9-290b-46ba-b927-d180b3144fa7)
 
-As we can see, there are two open ports:
-port 22: SSH
+As we can see, there are two open ports:\
+port 22: SSH\
 port 80: HTTP Apache
 
 Let's start with the web server on port 80.
@@ -29,13 +29,30 @@ Let's start with the web server on port 80.
 The homepage looks like this:
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/d77fbe34-5c48-4847-94ef-fec7b7072702)
 
-It's always good to take a look at the source code as well, but for now, I don't see anything noteworthy. See screenshot:
+It's always good to take a look at the source code as well, but for now, I don't see anything noteworthy.\
+See screenshot:
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/a886d5a9-69bd-42f4-ae22-664acb207894)
 
-Let's use gobuster to see if we can find any directories.
-For this, I'll use the following syntax with gobuster:
+Let's use gobuster to see if we can find any directories.\
+For this, I'll use the following syntax with gobuster:\
 `gobuster dir -u http://10.10.99.1 -w /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt`
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/334b3e58-2f3c-4174-849a-563f1160a1f1)
 
+From the gobuster output, two interesting directories have emerged:
+- /panel
+- /uploads
+
+Let's inspect these.
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/e63b5078-b05d-4faf-92f4-f4e5f0705b02)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/7d5712c2-b591-4729-a481-86c1abe723ac)
+
+It seems that we can upload something at /panel.
+Let's see if we can upload a reverse shell and establish a connection. As usual, we'll use a standard reverse shell from pentestmonkey. Let's start with PHP, see link: [php-reverse-shell.php](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php)
+
+## Exploit
+
+### Exploit\upload bypass
 
