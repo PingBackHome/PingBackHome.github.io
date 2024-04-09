@@ -4,6 +4,8 @@ title: TryHackMe | RootMe
 categories: THM
 ---
 
+In this writeup, we'll explore the steps taken to gain access and escalate privileges on a target server.
+
 ## Recon
 
 ### Recon\nmap
