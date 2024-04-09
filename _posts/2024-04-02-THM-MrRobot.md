@@ -204,7 +204,18 @@ And there we go, we're in :) Let's now continue our quest to find the remaining 
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/9466e359-b4cb-4db3-b18a-7dc3af2e6644)
 
+### Post-Exploit\Linpeas
 
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/c3e6059f-738f-48fa-848c-8dd988ad1313)
 
+**Setup webserver**
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/0e71f368-dfc6-460f-9ad8-9ab340c1d1f0)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/7884b2db-2950-4e84-b990-04c8dc57063b)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/a9c6d526-52fb-4db8-8b89-2493139b0a6e)
+
+**Output Linpeas**
 
 
