@@ -262,10 +262,12 @@ We can check this by executing the command: `nmap --version`.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/e66dbd5b-35a9-44f8-8642-c0b7db4958ab)
 
-The vulnerable versions are 2.02 - 5.12, and the output of `nmap --version` indicates that we have a vulnerable version :):)
-
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/2d5ead54-471d-42e0-9f80-7970c1ff0b85)
 
+The vulnerable versions are 2.02 - 5.12, and the output of `nmap --version` indicates that we have a vulnerable version :):)
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/e8fc51de-ee26-4aee-9e00-b80df948116a)
+
+Now that we are root users, we can read the final flag :):)
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/7a65d412-3dad-47c4-b2fa-fdcdb96a1f3d)
