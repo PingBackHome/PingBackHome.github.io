@@ -230,7 +230,12 @@ The syntax is mentioned above, but for ease of copying:\
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/0e71f368-dfc6-460f-9ad8-9ab340c1d1f0)
 
+On the attacker's machine, we set up a Python web server so that we can download a file from my attack machine onto the victim machine.\
+The goal is to get `linpeas.sh` onto the victim's machine.
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/7884b2db-2950-4e84-b990-04c8dc57063b)
+
+Using the wget command, we can ultimately download `linpeas.sh`, as shown in the screenshot.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/a9c6d526-52fb-4db8-8b89-2493139b0a6e)
 
@@ -240,11 +245,24 @@ The syntax is mentioned above, but for ease of copying:\
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/474ece7d-6734-4067-9c61-6cdda4c855a1)
 
+When we look at the output of `linpeas.sh`, we see that we can use nmap for privilege escalation, but how do we do this???
+
+
 ## Priv-Esca\nmap
+
+There is a very useful website: [https://gtfobins.github.io/](https://gtfobins.github.io/) \
+This site shows you how to abuse each program, and since we're going to abuse nmap, let's look it up and see exactly what to do.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/df23dc49-0a29-46af-9194-b18fb124aa07)
 
+We want to have a root shell so that we can read the root folder.\
+For this, we have two options, a & b.\
+Option b looks the simplest, but then we need to have the correct version.\
+We can check this by executing the command: `nmap --version`.
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/e66dbd5b-35a9-44f8-8642-c0b7db4958ab)
+
+The vulnerable versions are 2.02 - 5.12, and the output of `nmap --version` indicates that we have a vulnerable version :):)
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/2d5ead54-471d-42e0-9f80-7970c1ff0b85)
 
