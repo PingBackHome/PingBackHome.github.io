@@ -218,4 +218,12 @@ And there we go, we're in :) Let's now continue our quest to find the remaining 
 
 **Output Linpeas**
 
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/a962920e-f801-421b-b183-e42b1be259ba)
 
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/474ece7d-6734-4067-9c61-6cdda4c855a1)
+
+## Priv-Esca\nmap
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/df23dc49-0a29-46af-9194-b18fb124aa07)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/e66dbd5b-35a9-44f8-8642-c0b7db4958ab)
