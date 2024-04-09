@@ -209,6 +209,10 @@ This user is `robot`. When we list the contents of this home directory, we see t
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/ca70f080-60b8-42f5-bda5-fa3ab7bf7898)
 
+If we read this MD5 and paste it into our favorite cracking site, we get the above result.
+For the user robot, the password is: abcdefghijklmnopqrstuvwxyz
+
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/ae37c3eb-ed11-4993-b3bd-96267ee4e65b)
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/9466e359-b4cb-4db3-b18a-7dc3af2e6644)
