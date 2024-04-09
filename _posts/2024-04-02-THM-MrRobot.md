@@ -215,6 +215,11 @@ For the user robot, the password is: abcdefghijklmnopqrstuvwxyz
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/ae37c3eb-ed11-4993-b3bd-96267ee4e65b)
 
+Because the shell we are in doesn't offer all capabilities, we need to upgrade it, which we can do by turning it into a Python shell.\
+The syntax is mentioned above, but for ease of copying:\
+`python -c 'import pty; pty.spawn("/bin/bash")'`
+
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/9466e359-b4cb-4db3-b18a-7dc3af2e6644)
 
 ### Post-Exploit\Linpeas
