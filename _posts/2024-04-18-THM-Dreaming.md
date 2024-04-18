@@ -105,6 +105,9 @@ And there it is, we found one! See the highlighted exploit: 49909.py.
 
 ### Exploit\shell_upload
 
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/a86c90ea-4627-4f07-ba82-adc3c349fe4b)
+
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/3352d360-5f35-4ede-a6ec-1a6d43b2db99)
 
 
