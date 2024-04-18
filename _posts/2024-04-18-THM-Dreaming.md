@@ -9,7 +9,18 @@ categories: THM
 
 ### Recon\nmap
 
+We start as usual with an nmap scan over the IPv4 address we have obtained. I use the following parameters in my command:
+- `-sV`: Service version detection
+- `-sC`: Script scanning using default scripts
+- `-A`: Aggressive mode, including OS detection, version detection, script scanning, and traceroute
+
+Below you will find the result:
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/dba1a075-4de2-408e-ae4e-c37d3ad2251f)
+
+As you can see in the output, we only have two active open ports:
+- Port 22: SSH
+- Port 80: Web server
 
 
 ### Recon\port 80
