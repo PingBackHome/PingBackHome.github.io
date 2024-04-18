@@ -81,10 +81,10 @@ Let's start with "docs". Who knows, maybe there's some information about the web
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/42762465-122b-41a8-96b9-719db82576bf)
 
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/6025f699-f3cb-464d-a7a0-55734d5c627d)
+
 It wouldn't hurt to take a look at the changes and see if there are any old exploits we might still be able to reuse.\
 But so far, there's no additional information that we can use.
-
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/6025f699-f3cb-464d-a7a0-55734d5c627d)
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/d180e146-30d2-4b07-855b-faeae8a891b0)
 
