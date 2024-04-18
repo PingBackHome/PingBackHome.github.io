@@ -45,15 +45,44 @@ Let's take a closer look at this one.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/8dce1292-d66b-46f9-b134-0801ddbe3c50)
 
+On the `/app` page, there is a directory named `pluck-4.7.13`.\
+When we open this directory, we land on the page below.
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/fdb6225c-9fc8-4fa4-813a-71bf4bf102ff)
+
+There isn't much to do on this page.\
+However, we do have a hyperlink below the admin section. It can't hurt to take a look at this.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/cc57729b-3512-4789-ae6f-d9dfa7bfe9cc)
 
+Now we're on a login page where we can only enter a password.\
+Let's try the low-hanging fruit manually first. If this doesn't work, we can always resort to brute force techniques.
+Passwords to try:
+- admin
+- welcome
+- password
+
+"password" was the correct guess! :)\
+Now let's further explore if we can find anything on the admin panel.
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/c932bc07-8dee-4a97-899f-4485572f5ab7)
+
+Just to be sure, I'll start another gobuster, but this time from the point `/app/pluck-4.7.13/`.\
+Who knows, it might give us more information.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/c3bfeb41-24c8-4dc2-a906-07d792c1cd36)
 
+The latest gobuster scan gives the following entries:
+- image
+- files
+- docs
+- data
+Let's start with "docs". Who knows, maybe there's some information about the web application and/or misconfigurations.
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/42762465-122b-41a8-96b9-719db82576bf)
+
+It wouldn't hurt to take a look at the changes and see if there are any old exploits we might still be able to reuse.\
+But so far, there's no additional information that we can use.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/6025f699-f3cb-464d-a7a0-55734d5c627d)
 
