@@ -25,10 +25,23 @@ As you can see in the output, we only have two active open ports:
 
 ### Recon\port 80
 
+Let's start with the web server.\
+When we open the webpage in the web browser, we see the default Apache web server page.\
+There isn't much to find here yet, and there's also nothing in the source code.
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/3b3e69e7-80af-4a1a-9240-bdee4bfb2e98)
+
+
+The next logical step is to investigate if there are any pages to visit.\
+For this, I'll use `gobuster` as a tool.\
+I'll be using the following parameters:
+- `-w`: Wordlist for directory/file brute force
+- `-o`: Output file to save results
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/7cacfa0f-dac7-4894-b357-d273fd2d6184)
 
+The output only shows one page we can visit: `<host>/app`.\
+Let's take a closer look at this one.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/8dce1292-d66b-46f9-b134-0801ddbe3c50)
 
