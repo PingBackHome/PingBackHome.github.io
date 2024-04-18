@@ -77,6 +77,7 @@ The latest gobuster scan gives the following entries:
 - files
 - docs
 - data
+  
 Let's start with "docs". Who knows, maybe there's some information about the web application and/or misconfigurations.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/42762465-122b-41a8-96b9-719db82576bf)
@@ -88,10 +89,16 @@ But so far, there's no additional information that we can use.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/d180e146-30d2-4b07-855b-faeae8a891b0)
 
+As you can see in the screenshot below, there is a possibility to upload objects.\
+I've tried multiple reverse shells, but unfortunately, the application adds a .txt extension to the uploaded item.
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/e857b8c1-dd12-455c-ba7b-541a0909ed04)
+
+Let's run the application `pluck` through `searchsploit` and see if it comes back with a known exploit.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/59a6c418-9d12-44a7-9a5b-ca418e3fe6df)
 
+And there it is, we found one! See the highlighted exploit: 49909.py.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/3352d360-5f35-4ede-a6ec-1a6d43b2db99)
 
