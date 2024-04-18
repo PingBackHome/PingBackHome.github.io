@@ -100,6 +100,11 @@ Let's run the application `pluck` through `searchsploit` and see if it comes bac
 
 And there it is, we found one! See the highlighted exploit: 49909.py.
 
+
+## Exploit
+
+### Exploit\shell_upload
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/3352d360-5f35-4ede-a6ec-1a6d43b2db99)
 
 
