@@ -178,7 +178,7 @@ We have multiple databases, but we're only interested in the `library` database.
 Let's select this one, and when we read the tables, we see 2 columns (`dreamer`, `dreams`) with multiple rows.\ 
 We're on the right track. If you scroll back to `getDreams.py`, you'll see that two columns are being called: `dreamer` and `dreams`.
 
-We know that a shell can be invoked, so let's get a standard reverse shell from the website https://www.revshells.com.\ 
+We know that a shell can be invoked, so let's get a standard reverse shell from the website https://www.revshells.com. \ 
 Also, let's start a netcat listener on port 9001.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/35a021fc-7c46-4fd0-8337-40bd89119601)
@@ -188,24 +188,43 @@ Also, let's start a netcat listener on port 9001.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/3ef120d6-ad61-4843-a6a9-3f209a5eaf03)
 
+As you can see in the screenshot below, we have a successful connection :)\
+Let's read the flag of the user `death` and continue with enumeration.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/a9f9a531-4974-4984-84b1-cf12bb0962c8)
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/d6a351b2-da4c-4dba-bb08-6ab0f91421e6)
 
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/2124d9bd-d59a-442d-b0b1-b2d519a8f436)
 
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/ec488c1f-691a-4e23-b962-d7d69b121866)
+In the home folder of the user `death`, we also find a script named `getDreams.py`.\
+When we read this script, we see a database password for the user `death`.\
+In this box, passwords are used in multiple places at once. Maybe we can also log in as the user `death` with this password.
 
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/2124d9bd-d59a-442d-b0b1-b2d519a8f436)
+
+We are now logged in as the user `death`. Let's navigate to the home folder of the user.\ 
+Who knows, we might find something interesting there.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/b41aa595-b703-419c-a7ff-a5348c5017bd)
 
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/7a919260-3849-4cbd-a188-23430adb0096)
 
+If we read the script `restore.py`, we see that backups are being made and that a library is being imported.\
+Let's see if we can abuse this :):):)
+
+Let's search for this library on the machine. I'll use the `find` command with the following parameters:
+- `type f`
+- `group death`
+- `name shutil`
+- `ls`
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/2a186a2b-f433-4c2a-8c22-375df7e3ca79)
 
+We see in the output that the library is owned by `root` and that the group `death` also has access to it. 
+So, we can do something with this :)
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/3c8a7436-30c1-47d9-8b39-1f1d27a0b7a5)
 
@@ -219,3 +238,6 @@ Also, let's start a netcat listener on port 9001.
 
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/03670bb3-119a-492c-9f30-7e5312ceaf9e)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/ec488c1f-691a-4e23-b962-d7d69b121866)
+
