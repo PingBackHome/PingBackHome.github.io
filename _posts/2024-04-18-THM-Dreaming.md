@@ -137,7 +137,11 @@ And yes, we're in! Let's further investigate what we can find under the user `lu
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/601f4f78-c0da-41ab-bf6f-b08eaa29db08)
 
-We have the first flag. Let's see if we can escalate privileges to a user with more rights.\ 
+## Privilege Escalation
+
+### Privilege Escalation\sudo-l
+
+We have the first flag. Let's see if we can escalate privileges to a user with more rights.
 We can use the command `sudo -l` to see if we can do anything.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/216b610f-cb3f-4019-86d5-bea02b2f13b0)
@@ -157,10 +161,11 @@ Unfortunately, that didn't work. So let's get `linpeas.sh` onto the host and use
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/870f38ca-5682-43c4-a165-0fe167d975d4)
 
 We see in the bash history of the user `lucien` that they connected to MySQL and we see a plaintext password.
-
+Let's take a look at the script `getDreams.py` in the folder `/opt` and see if we can do something with it.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/4273f7e3-e313-4c59-b5c3-bd6ee77e8e41)
 
+We see in the `else` statement that a shell can be invoked, which we could theoretically abuse. Furthermore, we see that the script uses an SQL instance, and we know that the user `lucien` has used MySQL. Let's further investigate this.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/26b6bddd-db14-4a82-b231-6391e7ee26d6)
 
