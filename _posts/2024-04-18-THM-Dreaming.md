@@ -137,11 +137,17 @@ And yes, we're in! Let's further investigate what we can find under the user `lu
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/601f4f78-c0da-41ab-bf6f-b08eaa29db08)
 
+We have the first flag. Let's see if we can escalate privileges to a user with more rights.\ 
+We can use the command `sudo -l` to see if we can do anything.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/216b610f-cb3f-4019-86d5-bea02b2f13b0)
 
+We can use `getDreams.py` to perform privilege escalation.\
+Let's give that a try.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/734b5d07-b562-4823-8fcd-1fe81778b901)
+
+Unfortunately, that didn't work. So let's get `linpeas.sh` onto the host and use it to scan the machine for misconfigurations.
 
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/a8731676-b051-4e81-b30b-f12c306364e7)
