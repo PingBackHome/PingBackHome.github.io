@@ -169,6 +169,14 @@ We see in the `else` statement that a shell can be invoked, which we could theor
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/26b6bddd-db14-4a82-b231-6391e7ee26d6)
 
+Now that we're logged into MySQL as the user `lucien`, we need to look around to see which databases exist and which tables are present.
+
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/d3341285-4a39-4868-af27-5bf44103fbc3)
+
+We have multiple databases, but we're only interested in the `library` database. 
+Let's select this one, and when we read the tables, we see 2 columns (`dreamer`, `dreams`) with multiple rows. 
+We're on the right track. If you scroll back to `getDreams.py`, you'll see that two columns are being called: `dreamer` and `dreams`.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/d3aa7587-9439-4fbf-b574-c3f99aa6374f)
 
