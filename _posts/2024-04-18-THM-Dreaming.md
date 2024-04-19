@@ -178,27 +178,9 @@ We have multiple databases, but we're only interested in the `library` database.
 Let's select this one, and when we read the tables, we see 2 columns (`dreamer`, `dreams`) with multiple rows. 
 We're on the right track. If you scroll back to `getDreams.py`, you'll see that two columns are being called: `dreamer` and `dreams`.
 
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/d3aa7587-9439-4fbf-b574-c3f99aa6374f)
-
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/b57f7fa4-09e8-45dd-a6cf-5d050f2a0000)
-
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/29b7a683-a8b5-4be2-80e3-b650c3119d70)
 
-
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/d3341285-4a39-4868-af27-5bf44103fbc3)
-
-
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/08b4141b-8fba-474f-878f-8f58bb30dd0c)
-
-
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/c221e6fb-ea6d-491a-bb19-95d2b99a9391)
-
-
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/7e459e16-ec14-4fa7-95c8-0a2ebbc13b36)
-
-
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/adef7b19-26eb-490c-bb8e-9769bb4df3b3)
 
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/35a021fc-7c46-4fd0-8337-40bd89119601)
