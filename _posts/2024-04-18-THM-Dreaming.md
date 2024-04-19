@@ -123,17 +123,15 @@ If we execute this exploit, we'll get a web shell. See the screenshot below for 
 After some manual enumeration, I discovered that there are some items in the `/opt` folder.\
 We only have permissions to read `test.py`, so let's do that.
 
-
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/0300250a-abcf-4ea6-9e49-1e00ec18b3ee)
 
-
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/27939003-66eb-4494-a3dc-a027ea127bec)
+Now that we have a username and password, we can try to log in via SSH with the username `lucien`.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/7f8af758-9503-4379-ab60-399a85d82887)
 
-
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/219d3b4a-f9b3-43d8-b751-b5d6e5b66047)
 
+And yes, we're in! Let's further investigate what we can find under the user `lucien`. Let's read the first flag.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/ef70e45a-98d0-46dc-875f-97a0fe2cc638)
 
