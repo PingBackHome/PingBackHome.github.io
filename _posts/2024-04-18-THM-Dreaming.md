@@ -105,30 +105,23 @@ And there it is, we found one! See the highlighted exploit: 49909.py.
 
 ### Exploit\shell_upload
 
+If we open 49909.py in a text editor like Sublime, we can see what syntax we should use to utilize the exploit.\
+See the highlighted text in the screenshot below.
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/a86c90ea-4627-4f07-ba82-adc3c349fe4b)
 
+The syntax for this exploit is as follows:\
+`<ip_address> <port> <admin_panel_password> <pluck_cmd_path>`
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/3352d360-5f35-4ede-a6ec-1a6d43b2db99)
 
+If we execute this exploit, we'll get a web shell. See the screenshot below for an example.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/9bac2fa2-5dc6-4bff-8b7d-c969371b3a7b)
 
 
-
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/7896eef1-b61b-4c0a-aac9-d09ed3ea163e)
-
-
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/088c972e-4cb7-41cb-9ae9-521d69f047b8)
-
-
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/07d40a3f-132e-4f75-a555-66963d58f068)
-
-
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/c8404beb-471b-42f8-b7bf-f913100a097b)
-
-
-
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/fe3adf2c-b373-4d3d-a816-98b895955d8a)
+After some manual enumeration, I discovered that there are some items in the `/opt` folder.\
+We only have permissions to read `test.py`, so let's do that.
 
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/0300250a-abcf-4ea6-9e49-1e00ec18b3ee)
