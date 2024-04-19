@@ -152,18 +152,11 @@ Unfortunately, that didn't work. So let's get `linpeas.sh` onto the host and use
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/a8731676-b051-4e81-b30b-f12c306364e7)
 
-
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/3ef31300-ed38-432a-a79c-fd35f7f6fe83)
-
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/870f38ca-5682-43c4-a165-0fe167d975d4)
 
-
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/8d91916a-bf7a-400c-9d19-ce18ef3909b8)
-
-
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/e80ea9c3-b5a5-4f4c-bffc-baa66286b509)
-
+We see in the bash history of the user `lucien` that they connected to MySQL and we see a plaintext password.
 
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/4273f7e3-e313-4c59-b5c3-bd6ee77e8e41)
