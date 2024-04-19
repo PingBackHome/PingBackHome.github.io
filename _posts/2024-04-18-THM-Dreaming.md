@@ -4,6 +4,9 @@ title: TryHackMe | Dreaming
 categories: THM
 ---
 
+_
+In this CTF challenge, we embarked on a journey of enumeration, exploitation, and privilege escalation to uncover hidden flags and complete the mission._
+
 
 ## Recon
 
@@ -228,16 +231,49 @@ So, we can do something with this :)
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/3c8a7436-30c1-47d9-8b39-1f1d27a0b7a5)
 
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/f1dd5e9c-4d7c-4b8b-807a-1d764458402a)
 
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/ac83ad7a-682b-4448-8820-f4bb68e296e6)
+If we open `shutil.py` in a text editor and search for `copy2`, we can place a reverse shell in the script. 
+We'll also get this from revshells.com.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/1ab58528-0a7b-4b2b-8db6-884f7037cf50)
 
+And now we have a connection as the user `morpheus`. 
+Let's read the last flag; we've managed to collect all the flags.
 
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/f1dd5e9c-4d7c-4b8b-807a-1d764458402a)
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/ac83ad7a-682b-4448-8820-f4bb68e296e6)
 
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/03670bb3-119a-492c-9f30-7e5312ceaf9e)
 
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/ec488c1f-691a-4e23-b962-d7d69b121866)
+
+## Summary of CTF Challenge
+
+1. **Enumeration:**
+   - Conducted an nmap scan to identify open ports and services.
+
+2. **Web Exploration:**
+   - Discovered a web server and used gobuster to explore directories.
+
+3. **Exploitation Attempts:**
+   - Attempted to exploit an upload feature, but encountered file extension limitation.
+
+4. **Exploit Discovery:**
+   - Found a known exploit for the application `pluck` using searchsploit.
+
+5. **Initial Exploitation:**
+   - Successfully exploited `pluck`, gained a web shell, and escalated privileges.
+
+6. **Credential Discovery:**
+   - Discovered credentials in MySQL and utilized them to SSH into the system.
+
+7. **Privilege Escalation:**
+   - Explored the file system, found another script, and escalated privileges further.
+
+8. **Library Vulnerability:**
+   - Leveraged a vulnerability in a system library to gain a reverse shell as another user.
+
+9. **Completion:**
+   - Successfully collected all the flags and completed the challenge!
+
 
