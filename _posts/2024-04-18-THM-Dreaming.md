@@ -174,16 +174,16 @@ Now that we're logged into MySQL as the user `lucien`, we need to look around to
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/d3341285-4a39-4868-af27-5bf44103fbc3)
 
-We have multiple databases, but we're only interested in the `library` database. 
-Let's select this one, and when we read the tables, we see 2 columns (`dreamer`, `dreams`) with multiple rows. 
+We have multiple databases, but we're only interested in the `library` database.\ 
+Let's select this one, and when we read the tables, we see 2 columns (`dreamer`, `dreams`) with multiple rows.\ 
 We're on the right track. If you scroll back to `getDreams.py`, you'll see that two columns are being called: `dreamer` and `dreams`.
 
-
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/29b7a683-a8b5-4be2-80e3-b650c3119d70)
-
-
+We know that a shell can be invoked, so let's get a standard reverse shell from the website https://www.revshells.com.\ 
+Also, let's start a netcat listener on port 9001.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/35a021fc-7c46-4fd0-8337-40bd89119601)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/29b7a683-a8b5-4be2-80e3-b650c3119d70)
 
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/3ef120d6-ad61-4843-a6a9-3f209a5eaf03)
