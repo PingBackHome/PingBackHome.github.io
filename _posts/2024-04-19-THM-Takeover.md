@@ -111,7 +111,7 @@ And the HTTP variant shows us the requested flag from TryHackMe.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/4dd7f20d-73b7-415a-a30f-0953b4d7e607)
 
-## Summary of Actions Taken:
+## Summary:
 
 1. **Task Initiation:** 
    - Modified the hosts file as indicated in the task hint, adding the IP address and hostname of the box.
