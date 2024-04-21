@@ -69,29 +69,78 @@ Let's add these subdomains to the hosts file and see if we can find anything int
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/fc5cf002-adac-4532-929a-92095a4c6d97)
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/46816664-71c0-4bc9-86ba-4fbdced12985)
 
-**payroll.futurevera.thm**
+
+The subdomain "blog" displays a blog with 3 pages in the menu bar (Home, Blog, About Us).\ 
+None of them seem interesting, and the source code doesn't reveal anything promising.
+
+**payroll.futurevera.thm & portal.futurevera.thm**
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/4c29aba7-b9d0-4349-a4fc-9436ea624409)
 
-**portal.futurevera.thm**
-
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/ac2a5a63-5519-4d39-bc87-d4245427e01a)
+
+For the subdomains "payroll" and "portal," I'm redirected to the original homepage, so nothing particularly interesting there either.
+
 
 **support.futurevera.thm**
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/fc575dfb-3cc8-4a00-9d0a-4188a07455bd)
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/fb740e66-da4a-4dee-99ca-e55ab939b123)
 
+However, the "support" subdomain is a different story.
+
+Who knows, perhaps gobuster from this point onward will yield something with the `dir` flag.
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/1c236012-6b79-488e-8b81-f69be4087c15)
+
+Unfortunately, that doesn't yield anything quickly. 
+Perhaps the SSL certificate will reveal something.
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/fbe55151-005f-4ab0-bb9e-c48c0efc185f)
+
+Yes, this might be what we're looking for. See in the screenshot the following section: `Subject Alt Names`.
+Let's add this subdomain to our hosts file as well.
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/a79934bb-f42b-4376-afc8-90b88bdff9fa)
+
+The HTTPS variant doesn't yield anything.
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/6fe936df-ae8e-4a8b-961f-b31322b04361)
 
 
+And the HTTP variant shows us the requested flag from TryHackMe.
 
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/4dd7f20d-73b7-415a-a30f-0953b4d7e607)
 
+## Summary of Actions Taken:
 
+1. **Task Initiation:** 
+   - Modified the hosts file as indicated in the task hint, adding the IP address and hostname of the box.
 
+2. **Nmap Scan:** 
+   - Conducted an Nmap scan over the box, revealing multiple open ports: 
+     - Port 22 for SSH
+     - Port 80 for Apache HTTP
+     - Port 443 for Apache HTTPS.
 
+3. **Web Server Analysis:** 
+   - Explored the content on ports 80 and 443, finding a blog on port 80 with three pages (Home, Blog, About Us), but nothing of interest in the source code. 
 
+4. **Gobuster Scan:** 
+   - Launched a Gobuster scan with flags `dir`, `vhost`, and a vhost with the flag `-k` for HTTPS, using different wordlists for directories and vhosts.
 
+5. **Subdomain Discovery:** 
+   - Discovered several subdomains - "support," "blog," "portal," and "payroll."
 
+6. **Exploration of Subdomains:** 
+   - Investigated each subdomain's content. Found nothing significant on "blog," "portal," or "payroll," but "support" was noteworthy.
 
+7. **Further Investigation:** 
+   - Despite Gobuster not yielding immediate results, continued to explore the SSL certificate, finding potential leads in the "Subject Alt Names" section.
 
+8. **Hosts File Update:** 
+   - Added discovered subdomains to the hosts file for further investigation.
 
+9. **Conclusion:** 
+   - While the HTTPS variant didn't provide useful information, the HTTP variant revealed the requested flag from TryHackMe.
+
+In summary, we conducted a thorough reconnaissance of the target, exploring open ports, subdomains, and web server content to uncover potential vulnerabilities and gather intelligence.
