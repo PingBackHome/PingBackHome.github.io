@@ -118,14 +118,14 @@ To address this, we create a user on our local machine and assign appropriate pe
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/d4fb36c6-21d8-4f75-aebb-b9d561fd4a6b)
 
-### Accessing the Mounted NFS Share
+**Accessing the Mounted NFS Share**
 
 After logging in as the new user `hijackuser` with the correct permissions, we are able to read the contents of the directory.
 
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/cece2e93-7bcf-4609-a2ca-a1dae0f09741)
 
-### Discovery in NFS Share
+**Discovery in NFS Share**
 
 Within the NFS share, we discover a file named `for_emplyees.txt`.
 
@@ -135,7 +135,7 @@ ftpuser:W3stV1rg1n14M0un741nM4m4
 
 ### RECON\ftp_2
 
-### Logging in with Discovered Credentials
+**Logging in with Discovered Credentials**
 
 Now that we have the credentials, we can proceed to log in.
 
@@ -154,7 +154,7 @@ Let's download both of these files to our local machine and examine if they cont
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/26a0d617-f7a5-42c7-9248-a426272e1028)
 
-### Analysis of Retrieved Files
+**Analysis of Retrieved Files**
 
 In the file `.from_admin.txt`, we notice something interesting mentioned at the bottom: brute-forcing the login form might not be the quickest route.
 
@@ -162,7 +162,7 @@ Regarding the file `.passwords_list.txt`, as expected, we find password hashes. 
 
 ### RECON\cookie
 
-### Analysis of User Cookie
+**Analysis of User Cookie**
 
 Upon inspecting our own cookie for the user `hijackuser` and performing a base64 decode, we uncover something intriguing.
 
@@ -170,7 +170,7 @@ Upon inspecting our own cookie for the user `hijackuser` and performing a base64
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/4a6221b7-5ad7-4f16-958d-eb71995c3fe3)
 
-### Authentication via Cookie
+**Authentication via Cookie**
 
 It appears that the username and password are passed as authentication via the cookie.
 
@@ -179,13 +179,13 @@ Upon running the hash behind the username through `hash-identifier`, we determin
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/aa54defe-7ae2-40c5-be08-352fdddb741f)
 
-### Verifying Authentication via Cookie
+**Verifying Authentication via Cookie**
 
 To verify the hypothesis that the cookie also serves as authentication, I convert the password of the user `hijack` into an MD5 hash. If the converted MD5 hash matches the MD5 hash in the cookie, then we are on the right track.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/0034de65-26e1-4af0-99c5-a4d1a374362f)
 
-### Verification Result
+**Verification Result**
 
 As the screenshot above demonstrates, both hashes match.
 
@@ -198,6 +198,44 @@ We can now proceed with the exploitation phase of this box.
 
 ### Exploit\cookie
 
+**Generating MD5 Base64 Cookies Script**
+
+Let's get to work with all this information. We need a script that converts all passwords in the `.passwords_list.txt` file into a list of accepted cookies, which can then be fired with `wfuzz` at the `administration.php` page.
+
+I've named the script `md5_base64_cookie_gen.py` and it looks like this:
+
+
+```python
+import hashlib
+import base64
+
+# Open the input file and read its lines
+with open('input_passwords.txt', 'r', encoding='utf-8') as input_file:
+    input_lines = input_file.readlines()
+
+# Open the output file to write the modified hashes
+with open('output_hashes.txt', 'w', encoding='utf-8') as output_file:
+    # Loop through the lines in the input file and process each line
+    for line in input_lines:
+        # Remove any non-alphanumeric characters from the line
+        cleaned_line = ''.join(filter(str.isalnum, line))
+        # Calculate the MD5 hash of the cleaned line
+        hashed_line = hashlib.md5(cleaned_line.encode('utf-8')).hexdigest()
+        # Prepend "admin:" to the hash
+        modified_hash = 'admin:' + hashed_line
+        # Encode the modified hash to Base64
+        encoded_hash = base64.b64encode(modified_hash.encode('utf-8'))
+        # Write the encoded hash to the output file
+        output_file.write(encoded_hash.decode('utf-8') + '\n')
+```
+
+**Using Wfuzz for Cookie Brute Forcing**
+
+As discussed above, I'll use `wfuzz` for this task. The following flags will be used:
+
+- `-X POST`: Sending a POST request
+- `-w`: Wordlist containing cookies
+- `-b`: Location where the wordlist should be applied
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/e310bf82-b00b-4243-8e98-5286698869ee)
 
