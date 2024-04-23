@@ -135,13 +135,30 @@ ftpuser:W3stV1rg1n14M0un741nM4m4
 
 ### RECON\ftp_2
 
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/8ebd1cdc-441d-4f02-99cd-283797b9e98b)
+### Logging in with Discovered Credentials
+
+Now that we have the credentials, we can proceed to log in.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/9cecd2c2-2178-4a12-b80e-2994546d2624)
+
+
+### Retrieving Files from FTP Server
+
+We notice two interesting files on the FTP server:
+- `.from_admin.txt`
+- `.passwords_list.txt`
+
+Let's download both of these files to our local machine and examine if they contain valuable information.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/a422d85b-b873-4f39-b68f-1c8b4b48f002)
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/26a0d617-f7a5-42c7-9248-a426272e1028)
+
+### Analysis of Retrieved Files
+
+In the file `.from_admin.txt`, we notice something interesting mentioned at the bottom: brute-forcing the login form might not be the quickest route.
+
+Regarding the file `.passwords_list.txt`, as expected, we find password hashes. Now, the question is, what's our next step?
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/020941b2-0fc0-4ced-9fa0-78905feb1a79)
 
