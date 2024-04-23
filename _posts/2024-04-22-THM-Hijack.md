@@ -91,8 +91,6 @@ Unfortunately, the Gobuster scan doesn't yield much more. However, we do spot `c
 ### Recon\nfs
 
 
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/99fc812b-98c1-47c9-b83b-002d9cdc72bc)
-
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/8ea87c2e-b7c5-45a2-8c59-8e257ae366b5)
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/ba4e0de1-365e-41cb-980e-36ed7fc7d91b)
