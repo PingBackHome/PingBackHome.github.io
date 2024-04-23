@@ -74,14 +74,17 @@ We create a test account with the following credentials: `hjack::hijack`.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/56b69489-c009-44ec-98b4-07bac13c1ae6)
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/411b1c34-cc73-49f1-a953-3c76be182c7a)
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/909925e0-9ba7-4e46-8c46-4a689fbd1afd)
 
 However, upon logging in with these credentials, we find that we still have limited access.
+
 
 **gobuster**
 
 As a precaution, I initiate a Gobuster scan with standard parameters and the common wordlist.
 
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/909925e0-9ba7-4e46-8c46-4a689fbd1afd)
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/99fc812b-98c1-47c9-b83b-002d9cdc72bc)
+
 
 Unfortunately, the Gobuster scan doesn't yield much more. However, we do spot `config.php`, which could be a place to look later if we gain access to the server.
 
