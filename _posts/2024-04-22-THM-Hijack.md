@@ -6,8 +6,30 @@ categories: THM
 
 
 
+## Recon
+
+### Recon\nmap
+
+I initiated an Nmap scan on the TryHackMe box using the following parameters:
+
+- `-sV`: Service version detection
+- `-sC`: Script scanning
+
+Here's the output from the scan:
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/403762ed-b5a5-4f84-a947-ecc47ce371b4)
+
+The scan reveals that there are 5 open ports:
+
+- **21:** vsftpd 3.0.3
+- **22:** SSH
+- **80:** Apache 2.4.18
+- **111:** rpcbind
+- **2049:** NFS share
+
+Now, let's check if we can log in to the FTP server with default credentials.
+
+Searchsploit doesn't yield any exploit for this version of vsftpd.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/cf93923f-f9ec-4eca-b181-21f9895590aa)
 
