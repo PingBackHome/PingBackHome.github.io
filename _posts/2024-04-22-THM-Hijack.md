@@ -90,8 +90,20 @@ Unfortunately, the Gobuster scan doesn't yield much more. However, we do spot `c
 
 ### Recon\nfs
 
+### NFS Share Discovery
+
+The Nmap scan reveals the presence of an NFS share.\
+Let's identify the name of the share so we can mount it to our local machine.
+### Identifying NFS Share Name
+
+To identify the name of the NFS share, I utilize the standard Linux tool `showmount` with the `-e` flag, which prints the list of exported directories.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/8ea87c2e-b7c5-45a2-8c59-8e257ae366b5)
+
+From the output, it appears that the share is named `share`. Let's proceed to mount it to our local machine.
+
+First, I create a directory named `nfs_hijack` on my machine, to which I will mount the NFS share.
+
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/ba4e0de1-365e-41cb-980e-36ed7fc7d91b)
 
