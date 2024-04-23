@@ -196,7 +196,7 @@ We can now proceed with the exploitation phase of this box.
 
 ## Exploit
 
-### Exploit\cookie
+### EXPLOIT\cookie
 
 **Generating MD5 Base64 Cookies Script**
 
@@ -241,12 +241,32 @@ As discussed above, I'll use `wfuzz` for this task. The following flags will be 
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/73937d5d-0d21-4f4f-84d9-a50329c17cfc)
 
+**Successful Cookie Found**
+
+We have a hit! The cookie accepted above is the admin cookie.
+
+Let's apply this immediately.
+
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/cd7fb0f1-4617-4cd8-9ad1-b94c04094c10)
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/3ac54346-171b-401e-9e5c-f5d790ab91d9)
 
+
+**Accessing Service Control Panel**
+
+As the screenshot indicates, we have accessed a panel where we can check whether services are active or not. This likely means there is a shell with the web server itself. Perhaps it's possible to concatenate commands or loop through them.
+
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/c8739eec-374c-4fa7-be20-178a5acda32c)
 
+
+**Leveraging Reverse Shell**
+
+Since `;` and `|` do not work as expected, but `&` does, we'll aim for a reverse shell to gain more control.
+
+
+### EXPLOIT\reverse_shell
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/8f54cec2-f93f-4d7f-9812-4bbd9504278b)
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/b855d1ce-7de6-4481-998e-c0a579e100fe)
