@@ -93,6 +93,11 @@ rick:N3v3rG0nn4G1v3Y0uUp
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/eba2e0c9-5523-4b6f-b797-9df594a81a2c)
 
 
+https://book.hacktricks.xyz/linux-hardening/privilege-escalation#ld_preload-and-ld_library_path
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/9e40b9c3-63ec-4a1b-9e0d-9b5702c6d5f2)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/c26e52bb-5ae1-4091-9869-e9acefc87812)
 
 
 
