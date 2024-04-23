@@ -160,9 +160,22 @@ In the file `.from_admin.txt`, we notice something interesting mentioned at the 
 
 Regarding the file `.passwords_list.txt`, as expected, we find password hashes. Now, the question is, what's our next step?
 
+### RECON\cookie
+
+### Analysis of User Cookie
+
+Upon inspecting our own cookie for the user `hijackuser` and performing a base64 decode, we uncover something intriguing.
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/020941b2-0fc0-4ced-9fa0-78905feb1a79)
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/4a6221b7-5ad7-4f16-958d-eb71995c3fe3)
+
+### Authentication via Cookie
+
+It appears that the username and password are passed as authentication via the cookie.
+
+Upon running the hash behind the username through `hash-identifier`, we determine that it is an MD5 hash.
+
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/aa54defe-7ae2-40c5-be08-352fdddb741f)
 
