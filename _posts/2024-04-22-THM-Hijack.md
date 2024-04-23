@@ -99,6 +99,11 @@ https://book.hacktricks.xyz/linux-hardening/privilege-escalation#ld_preload-and-
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/c26e52bb-5ae1-4091-9869-e9acefc87812)
 
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/e19e6e0e-18b8-4a88-8d87-eca1bc8ca0a9)
 
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/eb570ff0-583d-4456-9040-ba0f4c47a60f)
 
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/e6456683-05f3-4d8b-a4ac-48a3f9cbae12)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/e110ebdf-3fcd-4ed4-99ab-b1e547eee2a8)
 
