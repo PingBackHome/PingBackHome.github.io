@@ -39,15 +39,33 @@ Attempting to log in with the default credentials on the FTP server proved unsuc
 
 ### RECON\webserver
 
+Let's visit the page through the browser and see if we can find an entry point.
+
+At the top of the navigation bar, we see several pages we can visit:
+
+- Administration
+- Login
+- Sign up
+
+We'll explore each page individually.
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/4e594c4a-62a9-4e53-ad96-723ee92b2c5b)
 
+**administration**
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/cb0e5a4d-bb85-46f0-9651-b800bc4f1d67)
 
+We can only view the `administration.php` page if we are admin, which could be interesting if we have admin logins.\ 
+Let's continue exploring.
+
+**login.php**
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/6a28660c-441d-411a-a9a0-3e34050c42c9)
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/b17a2ab5-3e6a-4329-b2f2-a5253c583053)
+
+When attempting to grab low-hanging fruit, such as entering `admin::admin` on the `login.php` page, we notice that we receive a different error message compared to when we provide incorrect `username::password`.
+
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/56b69489-c009-44ec-98b4-07bac13c1ae6)
 
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/b17a2ab5-3e6a-4329-b2f2-a5253c583053)
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/411b1c34-cc73-49f1-a953-3c76be182c7a)
 
