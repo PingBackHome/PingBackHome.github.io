@@ -5,6 +5,8 @@ categories: THM
 ---
 
 
+_Exploring a vulnerable machine's security, we uncover weaknesses, escalate privileges, and secure two elusive flags._
+
 
 ## Recon
 
@@ -348,9 +350,53 @@ First, we need to determine which libraries are used by Apache2 so that we can a
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/e19e6e0e-18b8-4a88-8d87-eca1bc8ca0a9)
 
+**Completing Privilege Escalation**
+
+Now that we know which libraries are being used, we can further complete our privilege escalation.
+
+According to Hacktricks, we need to create a `.c` file with the content found on the page of Hacktricks. Afterward, we compile it with `gcc`.
+
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/eb570ff0-583d-4456-9040-ba0f4c47a60f)
+
+## Final Steps for Privilege Escalation
+
+After compiling, we have two files in the `/tmp` folder:
+- `priv.c`
+- `libcrypt.so.1`
+
+Now, if we combine this with the information from the command `sudo -l`, we'll get a root shell. :):):)
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/e6456683-05f3-4d8b-a4ac-48a3f9cbae12)
 
+
+## Obtaining Root Flag
+
+Now that we have obtained root privileges, we can finally read the last flag, the root flag, and thus, the box is popped and complete.
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/e110ebdf-3fcd-4ed4-99ab-b1e547eee2a8)
+
+
+## Summary:
+
+1. **Nmap Scan:**
+   Conducted a thorough Nmap scan to identify open ports and services on the target machine.
+
+2. **Credentials Discovery:**
+   Discovered credentials in an NFS share, providing a potential entry point.
+
+3. **Web Server Access:**
+   Utilized the obtained credentials to gain access to the web server, uncovering further avenues for exploitation.
+
+4. **Cookie Brute-Forcing:**
+   Leveraged cookie brute-forcing techniques to escalate privileges and gain admin access on the web server.
+
+5. **Service Control Panel Exploration:**
+   Explored a service control panel, revealing a misconfigured environment variable and a path to privilege escalation.
+
+6. **Privilege Escalation:**
+   Crafted and executed a tailored exploit using LD_LIBRARY_PATH, exploiting the misconfigured environment variable to escalate privileges to root.
+
+7. **Root Access:**
+   Achieved root privileges, enabling the retrieval of both user and root flags, effectively completing the challenge.
 
