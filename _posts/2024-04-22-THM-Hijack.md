@@ -321,16 +321,30 @@ We have finally obtained the first flag! We can now cross `user.txt` off our lis
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/a7cf8ade-d7db-4b37-af99-20e708c90a37)
 
 
-## PRIV_ESC\sudo-l
+## PRIV_ESC
+
+### PRIV_ESC\sudo-l
+
+**Checking Sudo Permissions**
+
+Now, we need to obtain `root` privileges to read the root flag.
+
+Perhaps there's a misconfiguration, so let's execute `sudo -l` to see if there are any programs that we can run as `rick` with root privileges.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/eba2e0c9-5523-4b6f-b797-9df594a81a2c)
 
+**LD_PRELOAD Environment Variable Exploitation**
 
-https://book.hacktricks.xyz/linux-hardening/privilege-escalation#ld_preload-and-ld_library_path
+We notice that an environment variable can be invoked that should grant root privileges.
 
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/9e40b9c3-63ec-4a1b-9e0d-9b5702c6d5f2)
+On the website Hacktricks, there is an item about this: [LD_PRELOAD and LD_LIBRARY_PATH](https://book.hacktricks.xyz/linux-hardening/privilege-escalation#ld_preload-and-ld_library_path)
 
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/c26e52bb-5ae1-4091-9869-e9acefc87812)
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/40e1d340-c3a7-4dd3-82a2-dc5d8e21d21d)
+
+**Identifying Libraries Used by Apache2**
+
+First, we need to determine which libraries are used by Apache2 so that we can abuse their names.
+
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/e19e6e0e-18b8-4a88-8d87-eca1bc8ca0a9)
 
