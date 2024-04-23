@@ -27,7 +27,7 @@ The scan reveals that there are 5 open ports:
 - **111:** rpcbind
 - **2049:** NFS share
 
-### Recon\ftp
+### Recon\ftp_1
 
 Now, let's check if we can log in to the FTP server with default credentials.\
 anonymous::anonymous
@@ -104,18 +104,36 @@ From the output, it appears that the share is named `share`. Let's proceed to mo
 
 First, I create a directory named `nfs_hijack` on my machine, to which I will mount the NFS share.
 
-
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/ba4e0de1-365e-41cb-980e-36ed7fc7d91b)
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/fad63e1c-0fe7-49d4-b576-4a972ae0f8b0)
+
+### Checking Permissions on Mounted NFS Share
+
+Upon checking the permissions on the mounted NFS share, we observe that only owner `1003` and group `1003` have access.
+
+To address this, we create a user on our local machine and assign appropriate permissions.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/455a2ca3-9d71-447c-9d13-b41a89d53d65)
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/d4fb36c6-21d8-4f75-aebb-b9d561fd4a6b)
 
+### Accessing the Mounted NFS Share
+
+After logging in as the new user `hijackuser` with the correct permissions, we are able to read the contents of the directory.
+
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/cece2e93-7bcf-4609-a2ca-a1dae0f09741)
 
+### Discovery in NFS Share
+
+Within the NFS share, we discover a file named `for_emplyees.txt`.
+
+Upon reading this file, we find the following credentials. Let's use them to log in to the FTP server.
+
 ftpuser:W3stV1rg1n14M0un741nM4m4
+
+### RECON\ftp_2
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/8ebd1cdc-441d-4f02-99cd-283797b9e98b)
 
