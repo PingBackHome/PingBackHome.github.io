@@ -179,10 +179,24 @@ Upon running the hash behind the username through `hash-identifier`, we determin
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/aa54defe-7ae2-40c5-be08-352fdddb741f)
 
+### Verifying Authentication via Cookie
+
+To verify the hypothesis that the cookie also serves as authentication, I convert the password of the user `hijack` into an MD5 hash. If the converted MD5 hash matches the MD5 hash in the cookie, then we are on the right track.
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/0034de65-26e1-4af0-99c5-a4d1a374362f)
 
+### Verification Result
 
+As the screenshot above demonstrates, both hashes match.
 
+We can now proceed with the exploitation phase of this box.
+
+----------------------
+----------------------
+
+## Exploit
+
+### Exploit\cookie
 
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/e310bf82-b00b-4243-8e98-5286698869ee)
