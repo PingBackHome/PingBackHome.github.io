@@ -50,11 +50,11 @@ At the top of the navigation bar, we see several pages we can visit:
 
 We'll explore each page individually.
 
-**homepage**
+**index.php**
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/4e594c4a-62a9-4e53-ad96-723ee92b2c5b)
 
-**administration**
+**administration.php**
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/cb0e5a4d-bb85-46f0-9651-b800bc4f1d67)
 
@@ -68,7 +68,7 @@ Let's continue exploring.
 
 When attempting to grab low-hanging fruit, such as entering `admin::admin` on the `login.php` page, we notice that we receive a different error message compared to when we provide incorrect `username::password`.
 
-**sign up**
+**signup.php**
 
 We create a test account with the following credentials: `hjack::hijack`. 
 
