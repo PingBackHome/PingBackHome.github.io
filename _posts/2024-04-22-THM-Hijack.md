@@ -265,11 +265,16 @@ As the screenshot indicates, we have accessed a panel where we can check whether
 
 Since `;` and `|` do not work as expected, but `&` does, we'll aim for a reverse shell to gain more control.
 
-
-### EXPLOIT\reverse_shell
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/8f54cec2-f93f-4d7f-9812-4bbd9504278b)
 
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/b855d1ce-7de6-4481-998e-c0a579e100fe)
+
+### EXPLOIT\reverse_shell
+
+Setting Up Reverse Bash Shell
+
+Let's open a reverse bash shell to our local machine.
+
+From the website [https://www.revshells.com/](https://www.revshells.com/), I'll obtain the bash shell and paste it into the web panel form. Before hitting enter, we'll start listening with `netcat` on port 9002.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/2c270408-9136-4721-9fd6-ab3ea2e3576c)
 
