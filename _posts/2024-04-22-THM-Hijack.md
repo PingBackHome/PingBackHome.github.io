@@ -27,11 +27,17 @@ The scan reveals that there are 5 open ports:
 - **111:** rpcbind
 - **2049:** NFS share
 
-Now, let's check if we can log in to the FTP server with default credentials.
+### Recon\ftp
+Now, let's check if we can log in to the FTP server with default credentials.\
+anonymous::anonymous
 
 Searchsploit doesn't yield any exploit for this version of vsftpd.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/cf93923f-f9ec-4eca-b181-21f9895590aa)
+
+Attempting to log in with the default credentials on the FTP server proved unsuccessful. We'll set this aside for now and focus on exploring the next open port.
+
+### RECON\webserver
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/4e594c4a-62a9-4e53-ad96-723ee92b2c5b)
 
