@@ -58,7 +58,7 @@ We'll explore each page individually.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/cb0e5a4d-bb85-46f0-9651-b800bc4f1d67)
 
-We can only view the `administration.php` page if we are admin, which could be interesting if we have admin logins.\ 
+We can only view the `administration.php` page if we are admin, which could be interesting if we have admin logins.\
 Let's continue exploring.
 
 **login.php**
@@ -68,16 +68,25 @@ Let's continue exploring.
 
 When attempting to grab low-hanging fruit, such as entering `admin::admin` on the `login.php` page, we notice that we receive a different error message compared to when we provide incorrect `username::password`.
 
+**sign up**
 
-
------------
+We create a test account with the following credentials: `hjack::hijack`. 
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/56b69489-c009-44ec-98b4-07bac13c1ae6)
-
-
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/411b1c34-cc73-49f1-a953-3c76be182c7a)
 
+However, upon logging in with these credentials, we find that we still have limited access.
+
+**gobuster**
+
+As a precaution, I initiate a Gobuster scan with standard parameters and the common wordlist.
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/909925e0-9ba7-4e46-8c46-4a689fbd1afd)
+
+Unfortunately, the Gobuster scan doesn't yield much more. However, we do spot `config.php`, which could be a place to look later if we gain access to the server.
+
+### Recon\nfs
+
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/99fc812b-98c1-47c9-b83b-002d9cdc72bc)
 
