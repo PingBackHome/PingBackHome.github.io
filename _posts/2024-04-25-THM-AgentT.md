@@ -4,7 +4,26 @@ title: TryHackMe | Agent T
 categories: THM
 ---
 
+
+## RECON
+
+### RECON\nmap
+
+As usual, we start with an Nmap scan of the machine.\
+We use the default parameters for this scan:\
+-sV: Service version detection\
+-sC: Script scanning
+
+Below is a screenshot of the output:
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/fd562409-c1d0-4c11-9777-795e3c45feba)
+
+We have identified 1 open port, hosting a web server on port 80.
+
+### RECON\webserver
+
+Upon visiting the page in the browser, we encounter a demo admin panel where functionality seems limited. Links appear to be inactive.\
+Let's launch gobuster scans targeting both `dir` and `vhost` to further explore the web server.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/7ebbf4a2-9485-45cc-bf3a-40e983f2e2df)
 
