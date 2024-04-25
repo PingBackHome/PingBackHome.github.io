@@ -27,9 +27,13 @@ Let's launch gobuster scans targeting both `dir` and `vhost` to further explore 
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/7ebbf4a2-9485-45cc-bf3a-40e983f2e2df)
 
+Our gobuster search returns an error that I can't quite place. Let's resort to another standard tool in Kali Linux.
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/ed24ba62-06fa-4c32-8bca-b09ea37b6359)
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/1a5e8f22-3dd8-4198-a68a-b13168cc5e24)
+
+The Dirbuster output also does not reveal any interesting findings. Perhaps `wfuzz` will yield the desired results.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/daf1950d-c9f9-48f7-a8d6-dd11d271e3b0)
 
