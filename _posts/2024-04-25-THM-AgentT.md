@@ -22,6 +22,7 @@ categories: THM
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/61f6db95-fd05-499a-8ba6-664732d0ab21)
 
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/1082e592-8ea1-4a2d-99dc-9b9dbb3fcfaf)
 
 
 
