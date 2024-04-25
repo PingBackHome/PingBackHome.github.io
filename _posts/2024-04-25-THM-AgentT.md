@@ -39,7 +39,18 @@ The Dirbuster output also does not reveal any interesting findings. Perhaps `wfu
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/16956600-e4f2-4c24-a66c-ac7c6cfdee6a)
 
+Unfortunately, the website enumeration has not been successful thus far.
+
+## EXPLOIT
+
+### EXPLOIT\php
+
+From the output of the Nmap scan, it appears that the server is running PHP 8.0.1-dev.\
+Running this through `searchsploit` yields the following hit:
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/23687ad0-0584-4049-8746-0dff2c632d4c)
+
+Let's copy the exploit to our working directory and examine how it works.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/05d3da2d-866e-43e5-b908-aaf4f20d4b53)
 
