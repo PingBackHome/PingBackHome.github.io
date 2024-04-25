@@ -56,9 +56,19 @@ Let's copy the exploit to our working directory and examine how it works.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/61f6db95-fd05-499a-8ba6-664732d0ab21)
 
+Upon reviewing the exploit, as shown in the screenshot above, we notice that the script prompts for user input upon execution.\
+No further input is required.
+We execute the exploit and provide the requested information. In my case, this is: http://10.10.80.215
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/1082e592-8ea1-4a2d-99dc-9b9dbb3fcfaf)
 
+As depicted in the screenshot above, we have successfully obtained a shell.
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/1c6b79ef-0f1a-484a-b9e7-5f1106f88d09)
+
+Now that we have escalated privileges to root, we can proceed to locate the root flag.
+
+Due to the inability to change directories, we resort to using the `find` command to search for the flag.
 
 
 
