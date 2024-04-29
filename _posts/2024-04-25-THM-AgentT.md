@@ -5,7 +5,7 @@ categories: THM
 ---
 
 
-_Join me on an exhilarating journey through the PingBackHome challenge on TryHackMe, where we navigate the depths of cybersecurity, uncovering vulnerabilities, and mastering the art of exploitation to seize control_
+_Join me on an exhilarating journey through the Agent T challenge on TryHackMe, where we navigate the depths of cybersecurity, uncovering vulnerabilities, and mastering the art of exploitation to seize control_
 
 
 ## RECON
