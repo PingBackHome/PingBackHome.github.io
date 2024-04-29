@@ -5,7 +5,7 @@ categories: THM
 ---
 
 
-_Exploring the PingBackHome challenge on TryHackMe, we initiate with an Nmap scan, encounter a web server, and delve into exploiting PHP 8.0.1-dev_
+_Join me on an exhilarating journey through the PingBackHome challenge on TryHackMe, where we navigate the depths of cybersecurity, uncovering vulnerabilities, and mastering the art of exploitation to seize control_
 
 
 ## RECON
