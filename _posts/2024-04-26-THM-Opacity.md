@@ -5,8 +5,31 @@ categories: THM
 ---
 
 
+We are doing a CTF called `Opacity` today. As always, we start with an nmap scan of the IP address we received from TryHackMe.
+
+
+## RECON
+
+### RECON\nmap
+
+For the nmap scan, I'm using the following parameters:
+- `-sV`: This performs a version detection scan, where Nmap tries to determine the version of services on the scanned ports.
+- `-sC`: This performs a script scan using the default scripts built into Nmap.
+- `-o`: This specifies that you want to save the output to a file. You need to provide a filename, for example, `-o output.txt`.
+
+Let's now run the nmap scan with these parameters and see what we discover! 😊
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/38faf858-aac0-427a-9a55-4152ac580292)
+
+From the output, we see that we have multiple entries on the box:
+- Port 22: SSH
+- Port 80: Apache webserver
+- Port 139: SAMBA
+- Port 445: SAMBA
+
+Let's begin web server enumeration.
+
+
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/9f8ed00a-d341-4bbf-a9c4-080a9499b010)
 
