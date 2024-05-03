@@ -29,13 +29,24 @@ From the output, we see that we have multiple entries on the box:
 
 Let's begin web server enumeration.
 
+### RECON\webserver
 
+When we visit the web page in the browser, we arrive at a login page.\
+Before attempting to brute force the login page, let's start a `gobuster` scan.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/9f8ed00a-d341-4bbf-a9c4-080a9499b010)
 
+Since the login form web page displayed a `.php` extension, I'll specify to `gobuster` that it should include that extension in the scan.
+Additionally, I'll use the `common` wordlist for this scan.
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/502a8cb4-67a7-48bc-8715-e638da26b5ea)
 
+The `common` wordlist doesn't yield much, so let's use the `big` wordlist for the next scan.
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/75a1c602-d8f1-4da8-8c08-3972e75aff13)
+
+The `big` wordlist gives us 1 additional endpoint, `cloud`.
+Let's start another `gobuster` scan from this endpoint; perhaps it will yield something interesting again
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/c3d5538f-5a52-4d57-aff0-7d9ba65fc0f6)
 
