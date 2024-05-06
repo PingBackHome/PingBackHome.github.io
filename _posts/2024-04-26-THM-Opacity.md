@@ -50,6 +50,8 @@ Let's start another `gobuster` scan from this endpoint; perhaps it will yield so
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/c3d5538f-5a52-4d57-aff0-7d9ba65fc0f6)
 
+As you can see in the screenshot above, we have received two new endpoint: /cloud/images and /storage.php.
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/0a160fd3-a2f1-42d2-9819-a5f1cef36294)
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/fd3962da-c914-4317-ba24-75679c63975b)
