@@ -52,13 +52,9 @@ Let's start another `gobuster` scan from this endpoint; perhaps it will yield so
 
 As you can see in the screenshot above, we have received two new endpoint: /cloud/images and /storage.php.
 
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/0a160fd3-a2f1-42d2-9819-a5f1cef36294)
+## EXPLOIT
 
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/fd3962da-c914-4317-ba24-75679c63975b)
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/bf270555-d328-4f87-b841-36e4eedf6742)
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/00eeb7a1-5280-4969-bae3-3ec9248ec562)
-
-
+### EXPLOIT\shell_upload
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/7ce88dac-62e2-4a09-bd60-fd1825adad03)
 
