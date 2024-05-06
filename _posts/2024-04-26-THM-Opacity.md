@@ -78,7 +78,7 @@ Let's try another extension, I'm using `shell.php#00.jpg` for this attempt.
 
 As you can see, we have an active callback in our reverse shell. We're in :) Let's go hunt for the first flag of this box.
 
-
+## PrivEsc
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/143f8222-a2e4-4cdb-bcf2-ff123a9e642b)
 
@@ -86,7 +86,13 @@ As you can see, we have an active callback in our reverse shell. We're in :) Let
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/147634cb-c00b-4394-ac0b-469db5a231a1)
 
+As you may have noticed, we have limited capabilities as this user. We can't read the first flag (local.txt) as the current user.\
+However, we do find something interesting in the /opt folder of this machine.
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/9889787d-d900-4a7b-b24d-1db0e558ac19)
+
+If we use the `file` command on the object `dataset.kdbx`, we see that it's a `Keepass` database. This could be very interesting; let's transfer this db to our local machine.
+
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/6fac355e-eddd-4fa9-899d-959e3ec24bd4)
 
