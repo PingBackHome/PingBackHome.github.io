@@ -56,15 +56,29 @@ As you can see in the screenshot above, we have received two new endpoint: /clou
 
 ### EXPLOIT\shell_upload
 
+If we browse to <IP>/cloud in our browser, we arrive at a page where we can upload an image and visit it with the provided link.\
+We already know that the backend accepts PHP, so the next logical step is to upload a PHP reverse shell.
+
+
+A regular .php shell is not accepted by the backend, so we need to append an extension that is accepted by the page. \
+As you can see below, the .php.jpg extension is not accepted.
+
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/7ce88dac-62e2-4a09-bd60-fd1825adad03)
 
+Let's try another extension, I'm using `shell.php#00.jpg` for this attempt.
+
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/d1aeb4f0-a30e-4013-afe0-e1731e831f95)
-
-
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/bc2d4d37-2d7d-4a86-a8cf-b559c05ef7b3)
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/8d3d1f7f-9ec9-4df8-b6dd-2257f98fccc4)
+
+
+As you can see, we have an active callback in our reverse shell. We're in :) Let's go hunt for the first flag of this box.
+
+
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/143f8222-a2e4-4cdb-bcf2-ff123a9e642b)
 
