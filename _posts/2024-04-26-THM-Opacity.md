@@ -91,22 +91,29 @@ However, we do find something interesting in the /opt folder of this machine.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/9889787d-d900-4a7b-b24d-1db0e558ac19)
 
-If we use the `file` command on the object `dataset.kdbx`, we see that it's a `Keepass` database. This could be very interesting; let's transfer this db to our local machine.
-
-
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/6fac355e-eddd-4fa9-899d-959e3ec24bd4)
+If we use the `file` command on the object `dataset.kdbx`, we see that it's a `Keepass` database. This could be very interesting; let's transfer this db to our local machine.\
+The easiest way to transfer this file to our local machine is by starting a simple Python server and using `wget` to transfer the file. Let's do this.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/912cef37-1808-4019-98bf-a494789905fb)
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/e6a4fdc5-6856-46b2-b19f-4e0f77c8f047)
 
+We now have dataset.kdbx on our local machine, but now we need to do something with it. Let's consult `HackTricks` for more assistance.
+
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/344b6f1b-0812-4d77-890e-856163891a9c)
+
+Let's first install `Keepass` on our machine.
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/3c61352f-e694-40c1-a7ff-3f095e9a8221)
+
+
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/bac07445-c25f-4077-b37c-660095ea9124)
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/3df86df0-26f3-4e93-be45-cfb87ced2389)
 
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/3c61352f-e694-40c1-a7ff-3f095e9a8221)
+If we follow the instructions from `HackTricks` and crack the hash with `john` using the standard wordlist `rockyou`, we get a cracked password.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/7468d519-a9cb-48f2-89d5-0d2009ac4c0d)
 
