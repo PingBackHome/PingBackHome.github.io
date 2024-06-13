@@ -12,6 +12,7 @@ categories: THM/Series/Alice
 
 ### Recon\nmap
 
+**nmap output**
 
 ``` golang
 nmap -sV -sC 10.10.165.176 -o wonderland_nmap1.txt
@@ -26,3 +27,7 @@ STATE SERVICE VERSION
 http-title: Follow the white rabbit.
 Service Info: OS: Linux; CPE: cpe:/o:linux: linux_kernel
 ```
+
+### Recon\http
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/25f9da9a-6d79-4206-8172-ef883e18a804)
