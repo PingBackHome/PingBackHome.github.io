@@ -61,7 +61,13 @@ Let's view all three endpoints in the web browser.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/8f7e1ef3-54ae-4f93-ab9e-f8f13fd19f82)
 
+As you can see in the screenshot above, `/r` doesn't provide much more than a hint to search further.
+
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/bda578be-9275-45cc-8975-580db2b0291b)
+
+Just like `/r`, `/poem` is nothing more than a poem, which is of little use to us.
+
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/a70a30f8-ca4e-4f7b-8e29-e0885a29e3d5)
 
