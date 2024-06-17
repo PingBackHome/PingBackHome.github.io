@@ -28,6 +28,13 @@ http-title: Follow the white rabbit.
 Service Info: OS: Linux; CPE: cpe:/o:linux: linux_kernel
 ```
 
+
+The scan revealed two open ports on the target machine. Port 22 is running an SSH service using OpenSSH on Ubuntu Linux, and port 80 is running an HTTP service with a Golang-based server, possibly related to Go-IPFS or InfluxDB API.\ 
+The HTTP service's title suggests a theme related to "Follow the white rabbit," which may hint at the nature of the CTF challenge.
+
 ### Recon\http
 
+
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/25f9da9a-6d79-4206-8172-ef883e18a804)
+
+
