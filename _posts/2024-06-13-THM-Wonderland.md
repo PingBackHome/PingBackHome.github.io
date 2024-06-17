@@ -71,6 +71,7 @@ Let's view all three endpoints in the web browser.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/3ea33048-d521-4b63-bcc6-eb2545929472)
 
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/e341d114-2cbd-40a0-b841-a43f9ef1bfaf)
 
 
 
