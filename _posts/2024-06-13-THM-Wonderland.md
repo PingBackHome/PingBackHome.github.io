@@ -69,6 +69,8 @@ Let's view all three endpoints in the web browser.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/a4862725-83f1-4e5d-bd08-f6264a28cee8)
 
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/3ea33048-d521-4b63-bcc6-eb2545929472)
+
 
 
 
