@@ -65,6 +65,10 @@ Let's view all three endpoints in the web browser.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/a70a30f8-ca4e-4f7b-8e29-e0885a29e3d5)
 
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/d1597388-5ca5-4119-a722-5b3fd19fbfb4)
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/a4862725-83f1-4e5d-bd08-f6264a28cee8)
+
 
 
 
