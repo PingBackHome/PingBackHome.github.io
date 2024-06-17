@@ -46,3 +46,30 @@ When we examine the source code, we also see nothing special, except for some li
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/bf9903c2-5469-4e03-bc5b-9599500c293e)
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/ce5414d7-ca77-4621-9d77-08d9b2a7be3f)
 
+**Gobuster**
+
+Okay, the homepage doesn't provide much information. Let's start with a Gobuster scan to enumerate the directories. We will use the wordlist: SecLists/Discovery/Web-Content/raft-small-directories.txt.
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/f2d85cfa-2b58-4c29-88d9-48e86947f6fd)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
