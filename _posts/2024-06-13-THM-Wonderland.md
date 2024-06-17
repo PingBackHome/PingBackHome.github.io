@@ -44,5 +44,5 @@ First, we visit the homepage linked to port 80. See the screenshot below.
 When we examine the source code, we also see nothing special, except for some links to directories with images.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/bf9903c2-5469-4e03-bc5b-9599500c293e)
-![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/1693c772-7c8a-4429-bc9d-3b2684efc96b)
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/ce5414d7-ca77-4621-9d77-08d9b2a7be3f)
 
