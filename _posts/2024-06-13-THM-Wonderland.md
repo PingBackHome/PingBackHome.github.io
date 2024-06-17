@@ -29,7 +29,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux: linux_kernel
 ```
 
 
-The scan revealed two open ports on the target machine. Port 22 is running an SSH service using OpenSSH on Ubuntu Linux, and port 80 is running an HTTP service with a Golang-based server, possibly related to Go-IPFS or InfluxDB API.\ 
+The scan revealed two open ports on the target machine. Port 22 is running an SSH service using OpenSSH on Ubuntu Linux, and port 80 is running an HTTP service with a Golang-based server, possibly related to Go-IPFS or InfluxDB API.\
 The HTTP service's title suggests a theme related to "Follow the white rabbit," which may hint at the nature of the CTF challenge.
 
 Because SSH brute force should really be the last resort, we will start with the web services on port 80.
