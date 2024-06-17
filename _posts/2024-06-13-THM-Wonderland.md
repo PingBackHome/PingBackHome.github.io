@@ -32,9 +32,17 @@ Service Info: OS: Linux; CPE: cpe:/o:linux: linux_kernel
 The scan revealed two open ports on the target machine. Port 22 is running an SSH service using OpenSSH on Ubuntu Linux, and port 80 is running an HTTP service with a Golang-based server, possibly related to Go-IPFS or InfluxDB API.\ 
 The HTTP service's title suggests a theme related to "Follow the white rabbit," which may hint at the nature of the CTF challenge.
 
+Because SSH brute force should really be the last resort, we will start with the web services on port 80.
+
+
 ### Recon\http
 
+First, we visit the homepage linked to port 80. See the screenshot below.
 
 ![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/25f9da9a-6d79-4206-8172-ef883e18a804)
 
+When we examine the source code, we also see nothing special, except for some links to directories with images.
+
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/bf9903c2-5469-4e03-bc5b-9599500c293e)
+![afbeelding](https://github.com/PingBackHome/PingBackHome.github.io/assets/115549820/1693c772-7c8a-4429-bc9d-3b2684efc96b)
 
