@@ -1,0 +1,49 @@
+title: PingBackHome
+description: Projects & Writeups
+
+url: https://PingBackHome.github.io
+baseurl: # Ex: /project-page
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+# Header Option
+# header: large
+
+sass:
+    style: compressed
+
+markdown: kramdown
+highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 5
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+
+navigation:
+    - title: Home
+      url: /index.html
+    - title: Write-ups
+      url: /articles
+    - title: Projects
+      url: /projects
+    - title: About
+      url: /about
+    - title: Contact
+      url: /contact
+
+social:
+    github: PingBackHome
+    twitter: 
+    facebook: 
+    email: 
+    linkedin: 
+    youtube: 
+    tumblr: 
+
+google_analytics: ""
+
+disqus:
+    shortname: 
